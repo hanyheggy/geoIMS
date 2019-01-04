@@ -1,0 +1,348 @@
+REMARK  LINE TYPE SET:  EFMLINE , DATE: 15 Sep 1998  - TIME 13:19:27            
+NAME    EFMLINE  147                                                            
+TYPE       1 500   Soft Line #1                                                 
+LINE       0 500   0   0   0   1                                                
+END                                                                             
+TYPE       2 500   Soft Line #2                                                 
+LINE       0 500   0   0   0   2                                                
+END                                                                             
+TYPE       3 500   Soft Line #3                                                 
+LINE       0 500   0   0   0   3                                                
+END                                                                             
+TYPE       4 500   Soft Line #4                                                 
+LINE       0 500   0   0   0   4                                                
+END                                                                             
+TYPE       5 500   Soft Line #5                                                 
+LINE       0 500   0   0   0   5                                                
+END                                                                             
+TYPE       6 500   Soft Line #6                                                 
+LINE       0 500   0   0   0   6                                                
+END                                                                             
+TYPE       7 500   Soft Line #7                                                 
+LINE       0 500   0   0   0   7                                                
+END                                                                             
+TYPE       8 500   Soft Line #8                                                 
+LINE       0 500   0   0   0   8                                                
+END                                                                             
+TYPE       9 500   Soft Line #9                                                 
+LINE       0 500   0   0   0   9                                                
+END                                                                             
+TYPE      10 500   Soft Line #10                                                
+LINE       0 500   0   0   0  10                                                
+END                                                                             
+TYPE      11 500   Soft Line #11                                                
+LINE       0 500   0   0   0  11                                                
+END                                                                             
+TYPE      12 500   Soft Line #12                                                
+LINE       0 500   0   0   0  12                                                
+END                                                                             
+TYPE      13 500   Soft Line #13                                                
+LINE       0 500   0   0   0  13                                                
+END                                                                             
+TYPE      14 500   Soft Line #14                                                
+LINE       0 500   0   0   0  14                                                
+END                                                                             
+TYPE      15 500   Soft Line #15                                                
+LINE       0 500   0   0   0  15                                                
+END                                                                             
+TYPE      16 500   Soft Line #16                                                
+LINE       0 500   0   0   0  16                                                
+END                                                                             
+TYPE      17 500   Soft Line #17                                                
+LINE       0 500  -2   0   1   2                                                
+LINE       0 500   2   0   1   2                                                
+END                                                                             
+TYPE      18 500   Soft Line #18                                                
+LINE       0 500  -2   0   1   3                                                
+LINE       0 500   2   0   1   3                                                
+END                                                                             
+TYPE      19 500   Soft Line #19                                                
+LINE       0 500  -2   0   1   4                                                
+LINE       0 500   2   0   1   4                                                
+END                                                                             
+TYPE      20 500   Soft Line #20                                                
+LINE       0 500  -2   0   1   5                                                
+LINE       0 500   2   0   1   5                                                
+END                                                                             
+TYPE      21 500   Soft Line #21                                                
+LINE       0 500  -2   0   1   6                                                
+LINE       0 500   2   0   1   6                                                
+END                                                                             
+TYPE      22 500   Soft Line #22                                                
+LINE       0 500  -2   0   1   7                                                
+LINE       0 500   2   0   1   7                                                
+END                                                                             
+TYPE      23 500   Soft Line #23                                                
+LINE       0 500  -2   0   1   8                                                
+LINE       0 500   2   0   1   8                                                
+END                                                                             
+TYPE      24 500   Soft Line #24                                                
+LINE       0 500  -2   0   1   9                                                
+LINE       0 500   2   0   1   9                                                
+END                                                                             
+TYPE      25 500   Soft Line #25                                                
+LINE       0 500  -2   0   1  10                                                
+LINE       0 500   2   0   1  10                                                
+END                                                                             
+TYPE      26 500   Soft Line #26                                                
+LINE       0 500  -2   0   1  11                                                
+LINE       0 500   2   0   1  11                                                
+END                                                                             
+TYPE      27 500   Soft Line #27                                                
+LINE       0 500  -2   0   1  12                                                
+LINE       0 500   2   0   1  12                                                
+END                                                                             
+TYPE      28 500   Soft Line #28                                                
+LINE       0 500  -2   0   1  13                                                
+LINE       0 500   2   0   1  13                                                
+END                                                                             
+TYPE      29 500   Soft Line #29                                                
+LINE       0 500  -2   0   1  14                                                
+LINE       0 500   2   0   1  14                                                
+END                                                                             
+TYPE      30 500   Soft Line #30                                                
+LINE       0 500  -2   0   1  15                                                
+LINE       0 500   2   0   1  15                                                
+END                                                                             
+TYPE      31 500   line #31                                                     
+LINE       0 100   0   0   0   1                                                
+SYMBOL   125   1   0   0   0   1*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0  10  10   1 -10 -10                
+LINE     150 350   0   0   0   1                                                
+SYMBOL   375   1   0   0  20   1*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0  10  10   1 -10 -10                
+LINE     400 500   0   0   0   1                                                
+END                                                                             
+TYPE      32 500   LINE #32                                                     
+LINE       0  85   0   0   0   1                                                
+SYMBOL   110   1   0   0  20   1*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+SYMBOL   140   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+LINE     165 335   0   0   0   1                                                
+SYMBOL   360   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+SYMBOL   390   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+LINE     415 500   0   0   0   1                                                
+END                                                                             
+TYPE      33 500   LINE #33                                                     
+LINE       0  70   0   0   0   1                                                
+SYMBOL    95   1   0   0   0   1*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+SYMBOL   125   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+SYMBOL   155   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+LINE     180 320   0   0   0   1                                                
+SYMBOL   345   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+SYMBOL   375   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+SYMBOL   405   1   0   0   0   0*      4   0 -10  10   1  10 -10                
+CONTINUE                        *          0 -10 -10   1  10  10                
+LINE     430 500   0   0   0   1                                                
+END                                                                             
+TYPE      34 500   LINE #34                                                     
+LINE       0 500  -1   0   0   1                                                
+LINE       0 500   0   0   0   1                                                
+LINE       0 500   1   0   0   1                                                
+LINE       0 500   2   0   0   1                                                
+END                                                                             
+TYPE      35 500   LINE #35                                                     
+LINE       0 100   0   0   0   1                                                
+SYMBOL   125   1   0   0   0   0*      2   0  -5  10   1   5 -10                
+LINE     150 200   0   0   0   1                                                
+SYMBOL   225   1   0   0   0   0*      2   0  -5  10   1   5 -10                
+LINE     250 350   0   0   0   1                                                
+SYMBOL   375   1   0   0   0   0*      2   0  -5  10   1   5 -10                
+LINE     400 450   0   0   0   1                                                
+SYMBOL   475   1   0   0   0   0*      2   0  -5  10   1   5 -10                
+END                                                                             
+TYPE      74 100   DUCTBANK                                                     
+LINE       0 100  10   0   0   1                                                
+LINE       0 100 -10   0   0   1                                                
+END                                                                             
+TYPE      75 500   UG TRANSMISSION                                              
+LINE       0 235   0   0   0   1                                                
+SYMBOL   190   1 -67   0 160   0EFMSYM                                          
+LINE     265 470   0   0   0   1                                                
+END                                                                             
+TYPE     101 500   Single line                                                  
+LINE       0 500   0   4   0   1                                                
+END                                                                             
+TYPE     102 500   Water main                                                   
+LINE       0 400   0   5   0   1                                                
+SYMBOL   435   1 -20   5  40   1STANDARD     230                                
+END                                                                             
+TYPE     103 500   Agency Water Main                                            
+LINE       0 400  10   5   0   1                                                
+LINE       0 400 -10   5   0   1                                                
+SYMBOL   435   1 -20   5  40   1STANDARD     230                                
+END                                                                             
+TYPE     104 500   Sewer Gravity Main                                           
+LINE       0 400   0   4   0   1                                                
+SYMBOL   435   1 -20   4  40   1STANDARD     226                                
+END                                                                             
+TYPE     105 500   Sewer Force Main                                             
+LINE       0  50   0   4   0   1                                                
+LINE     100 150   0   4   0   1                                                
+LINE     200 250   0   4   0   1                                                
+LINE     300 350   0   4   0   1                                                
+SYMBOL   415   1 -20   4  40   1STANDARD     226                                
+END                                                                             
+TYPE     106 500   Agency Swr Grav Main                                         
+LINE       0 400  10   4   0   1                                                
+LINE       0 400 -10   4   0   1                                                
+SYMBOL   435   1 -20   4  40   1STANDARD     226                                
+END                                                                             
+TYPE     107 500   Agency Swr Forc Main                                         
+LINE       0  50  10   4   0   1                                                
+LINE     100 150  10   4   0   1                                                
+LINE     200 250  10   4   0   1                                                
+LINE     300 350  10   4   0   1                                                
+LINE       0  50 -10   4   0   1                                                
+LINE     100 150 -10   4   0   1                                                
+LINE     200 250 -10   4   0   1                                                
+LINE     300 350 -10   4   0   1                                                
+SYMBOL   415   1 -20   4  40   1STANDARD     226                                
+END                                                                             
+TYPE     108 500   Signal Line                                                  
+LINE       0 300   0   4   0   1                                                
+SYMBOL   330   6 -10   4  25   0STANDARD    SIGNAL                              
+END                                                                             
+TYPE     109 450   Raw Water Line                                               
+LINE       0 350   0   5   0   1                                                
+SYMBOL   375   7 -10   5  25   0STANDARD    RW                                  
+END                                                                             
+TYPE     126 500   LINETYPE #126                                                
+LINE       0 100   0   0   0   1                                                
+SYMBOL   120   1   0   0   0   1*      5   0  -2   0   1   0   2                
+CONTINUE                        *          1   2   0   1   0  -2                
+CONTINUE                        *          1  -2   0                            
+SYMBOL   140   1   0   0   0   1*      5   0  -2   0   1   0   2                
+CONTINUE                        *          1   2   0   1   0  -2                
+CONTINUE                        *          1  -2   0                            
+LINE     160 350   0   0   0   1                                                
+SYMBOL   370   1   0   0   0   0*      5   0  -2   0   1   0   2                
+CONTINUE                        *          1   2   0   1  -2   0                
+CONTINUE                        *          1  -2   0                            
+SYMBOL   390   1   0   0   0   0*      5   0  -2   0   1   0   2                
+CONTINUE                        *          1   2   0   1   0  -2                
+CONTINUE                        *          1  -2   0                            
+LINE     410 500   0   0   0   1                                                
+END                                                                             
+TYPE     127 330   River / Lake                                                 
+LINE       0 210   0   0   0   1                                                
+SYMBOL   240   1   0   0   0   1*      5   0  -2   0   1   0   2                
+CONTINUE                        *          1   2   0   1   0  -2                
+CONTINUE                        *          1  -2   0                            
+SYMBOL   270   1   0   0   0   1*      5   0  -2   0   1   0   2                
+CONTINUE                        *          1   2   0   1   0  -2                
+CONTINUE                        *          1  -2   0                            
+SYMBOL   300   1   0   0   0   1*      5   0  -2   0   1   0   2                
+CONTINUE                        *          1   2   0   1   0  -2                
+CONTINUE                        *          1  -2   0                            
+END                                                                             
+TYPE     128 260   Fence                                                        
+LINE       0  30   0   0   0   1                                                
+LINE      60  90   0   0   0   1                                                
+LINE     120 150   0   0   0   1                                                
+LINE     180 210   0   0   0   1                                                
+SYMBOL   235   1   0   0   0   1*      4   0 -15  15   1  15 -15                
+CONTINUE                        *          0 -15 -15   1  15  15                
+END                                                                             
+TYPE     129 100   Railroad track                                               
+LINE       0 100   0   0   0   1                                                
+SYMBOL    50   1   0   0   0   1*      2   0   0 -15   1   0  15                
+END                                                                             
+TYPE     130 100   Sabkhah                                                      
+SYMBOL     0   1   0   0   0   1*      4   0   0   0   1  60   0                
+CONTINUE                        *          0  30   0   1  30  25                
+END                                                                             
+TYPE     131 216   Canal                                                        
+LINE       0 216 -36   0   0   1                                                
+LINE       0 216  36   0   0   1                                                
+SYMBOL    16   1   0   0   0   1*      6   0   0  12   1  12  24                
+CONTINUE                        *          1  24  24   1  60   6                
+CONTINUE                        *          1  78   6   1  84  12                
+SYMBOL   144   1   0   0   0   1*      6   0   0 -18   1  12  -6                
+CONTINUE                        *          1  24  -6   1  60 -24                
+CONTINUE                        *          1  78 -24   1  84 -18                
+END                                                                             
+TYPE     132 160   Guard rail                                                   
+LINE       0 140   0   0   0   1                                                
+SYMBOL   150   1   0   0   0   1*     13   0 -12   0   1 -10   6                
+CONTINUE                        *          1  -6  10   1   0  12                
+CONTINUE                        *          1   6  10   1  10   6                
+CONTINUE                        *          1  12   0   1  10  -6                
+CONTINUE                        *          1   6 -10   1   0 -12                
+CONTINUE                        *          1  -6 -10   1 -10  -6                
+CONTINUE                        *          1 -12   0                            
+END                                                                             
+TYPE     133 180   Pipeline - Exposed                                           
+LINE       0 160   0   0   0   1                                                
+SYMBOL   160   1   0   0   0   1*      2   0   0 -10   1   0  10                
+SYMBOL   180   1   0   0   0   1*      2   0   0 -10   1   0  10                
+END                                                                             
+TYPE     134 180   Pipeline - Buried                                            
+LINE       0 160   0   0   0   9                                                
+LINE     160 160   0   0   0   1                                                
+SYMBOL   160   1   0   0   0   1*      2   0   0 -10   1   0  10                
+SYMBOL   180   1   0   0   0   1*      2   0   0 -10   1   0  10                
+END                                                                             
+TYPE     135 440   Municipality                                                 
+LINE       0 160   0   0   0  16                                                
+LINE     200 240   0   0   0  16                                                
+LINE     280 320   0   0   0  16                                                
+LINE     360 400   0   0   0  16                                                
+END                                                                             
+TYPE     136 360   District                                                     
+LINE       0 160   0   0   0  16                                                
+LINE     200 240   0   0   0  16                                                
+LINE     280 320   0   0   0  16                                                
+END                                                                             
+TYPE     137 280   State                                                        
+LINE       0 160   0   0   0  16                                                
+LINE     200 240   0   0   0  16                                                
+END                                                                             
+TYPE     138 200   International                                                
+LINE       0 160   0   0   0  16                                                
+END                                                                             
+TYPE     139 450   County Boundary                                              
+LINE       0 250   0   3   0   1                                                
+SYMBOL   300   4 -10   3  25   0STANDARD    CNTY                                
+END                                                                             
+TYPE     140 450   City boundary                                                
+LINE       0 250   0   3   0   1                                                
+SYMBOL   300   4 -10   3  25   0STANDARD    CITY                                
+END                                                                             
+TYPE     141 450   PSD Boundary                                                 
+LINE       0 360   0   3   0   1                                                
+SYMBOL   380   3 -15   3  25   0STANDARD    PSD                                 
+END                                                                             
+TYPE     142 450   Subdivision Boundary                                         
+LINE       0 250   0   3   0   1                                                
+SYMBOL   300   4 -10   3  25   0STANDARD    SBDV                                
+END                                                                             
+TYPE     143 425   Geographic Area Bndy                                         
+LINE       0 250   0   3   0   1                                                
+SYMBOL   300   3 -15   3  25   0STANDARD    GEO                                 
+END                                                                             
+TYPE     144 450   Impact Fee Area Bndy                                         
+LINE       0 250   0   3   0   1                                                
+SYMBOL   300   4 -10   3  25   0STANDARD    IMPC                                
+END                                                                             
+TYPE     145 450   Fire District Bndry                                          
+LINE       0 250   0   3   0   1                                                
+SYMBOL   300   4 -15   3  25   0STANDARD    FIRE                                
+END                                                                             
+TYPE     146 309   Wall 1                                                       
+LINE       0 240   8   7   0  11                                                
+LINE       0 240  -8   7   0  11                                                
+SYMBOL   257   1 -15   7  35   0EFMSYM                                          
+END                                                                             
+TYPE     147 280   Centerline 1                                                 
+LINE       0 160   0   0   0   1                                                
+LINE     200 240   0   0   0   1                                                
+END                                                                             

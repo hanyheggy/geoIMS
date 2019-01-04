@@ -1,0 +1,20 @@
+clear
+echo compiling
+
+rm  geoIMSdraw    *gif*
+
+
+gcc geoIMSdraw.c -o geoIMSdraw                             \
+    -O3 -g -Wall -pthread -Wall -I/usr/include             \
+    -L/usr/lib -L/usr/X11R6/lib -lfreetype -lz -L/usr/lib  \
+    -lWand -lMagick  -ltiff -lfreetype -ljpeg -lXext -lSM -lICE -lX11 -lXt -lbz2 -lz -lpthread -lm -lpthread
+
+echo running
+    
+./geoIMSdraw    
+
+echo View result
+kview *.gif &
+    
+# -llcms  not found flag
+# when ld cannot find -lWand   cd /usr/lib   ln -s libWand.so.6-1-9-4 libWand.so

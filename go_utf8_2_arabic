@@ -1,0 +1,20 @@
+# clear
+
+rm indego_arabic
+
+# gcc -c indego_arabic.c
+
+gcc -c geoIMS_utf8_2_arabic.c  -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+
+
+# `pkg-config glib-2.0 --cflags --libs`
+
+
+
+gcc -o  indego_arabic          \
+        indego_arabic.o        \
+        indego_utf8_2_glyph.o  \
+        -lodbc  -lglib-2.0
+
+
+# ./indego_arabic

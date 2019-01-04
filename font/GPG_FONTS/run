@@ -1,0 +1,61 @@
+
+confont  standard.symd               49     7
+confont  courier.symd                18     0
+confont  concept.symd                40     0
+confont  helvetic.symd               24     0
+confont  quick.symd                  45     0
+confont  gfis.symd                   49     7
+confont  gasfont.symd                16     0
+confont  outline.symd                24     0
+
+confont  arabic1.symd                30     9
+confont  arabic2.symd                51    20
+
+confont  cartographiy_roman.symd     13     3
+
+confont  simplex_roman.symd          31     9
+confont  simplex_script.symd         34    13
+
+confont  complex_roman1.symd         18     5
+confont  complex_roman2.symd         30     9
+confont  complex_italic1.symd        18     5
+confont  complex_italic2.symd        30     9
+confont  complex_script.symd         34    13
+
+confont  multiplex_2x_roman.symd     30     9
+confont  multiplex_3x_roman.symd     30     9
+confont  multiplex_3x_italic.symd    30     9
+
+confont  gothic_english.symd         30     9
+confont  gothic_italia.symd          30     9
+
+
+mv   standard.symd.font                  standard.font
+mv   courier.symd.font                   courier.font
+mv   concept.symd.font                   concept.font
+mv   helvetic.symd.font                  helvetic.font
+mv   quick.symd.font                     quick.font
+mv   gfis.symd.font                      gfis.font
+mv   gasfont.symd.font                   gasfont.font
+mv   outline.symd.font                   outline.font
+
+mv   arabic1.symd.font                   arabic1.font
+mv   arabic2.symd.font                   arabic2.font
+
+mv   cartographiy_roman.symd.font        cartographiy_roman.font
+
+mv   simplex_roman.symd.font             simplex_roman.font
+mv   simplex_script.symd.font            simplex_script.font
+
+mv   complex_roman1.symd.font            complex_roman1.font
+mv   complex_roman2.symd.font            complex_roman2.font
+mv   complex_italic1.symd.font           complex_italic1.font
+mv   complex_italic2.symd.font           complex_italic2.font
+mv   complex_script.symd.font            complex_script.font
+
+mv   multiplex_2x_roman.symd.font        multiplex_2x_roman.font
+mv   multiplex_3x_roman.symd.font        multiplex_3x_roman.font
+mv   multiplex_3x_italic.symd.font       multiplex_3x_italic.font
+
+mv   gothic_english.symd.font            gothic_english.font
+mv   gothic_italia.symd.font             gothic_italia.font

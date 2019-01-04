@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=/usr/local/lib
+gcc `Magick-config --cflags --cppflags` magickcore.c `Magick-config --ldflags --libs` -o magickcore

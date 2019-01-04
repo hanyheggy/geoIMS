@@ -1,0 +1,214 @@
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*                            geoLOAD/6000                                */
+/*                                                                        */
+/*   Main  source file  :    Main file   ( geoload.sqc )                  */
+/*                                                                        */
+/*                                                                        */
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------*/
+/*                       geoLOAD Include File                             */
+/*------------------------------------------------------------------------*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <memory.h>
+#include <math.h>
+
+FILE      *fp_i                 ; /* Input  file pointer                  */
+FILE      *fp_o                 ; /* Output file pointer                  */
+FILE      *fopen()              ; /*                                      */
+
+
+#include <sqlenv.h>
+#include <sqlda.h>
+
+#define  CHECKERR(CE_STR)   if (check_error (CE_STR, &sqlca) != 0) printf("error");
+
+EXEC SQL INCLUDE SQLCA;
+
+EXEC SQL BEGIN DECLARE SECTION;
+   long    feat_num     ;
+
+   char    status  [3]  ;
+   char    subid   [13] ;
+   char    fdrnum  [13] ;
+   char    subtype [21] ;
+   long    kva          ;
+   char    mva     [5]  ;
+
+   char    oh_ugd  [4]  ;
+   char    privolt [9]  ;
+   char    secvolt [9]  ;
+   long    length       ;
+   char    gridid  [13] ;
+   char    from    [13] ;
+   char    lmr1    [2]  ;
+   char    to      [12] ;
+   char    lmr2    [2]  ;
+
+EXEC SQL END DECLARE SECTION;
+
+
+
+
+main()
+{
+
+/*------------------------*/
+/* load Gridstation data  */
+/*------------------------*/
+/*
+ fp_i = fopen ("gridsorted.dat","rt");
+ if  ( fp_i == NULL )
+     {
+      printf ("\nERROR : Can't open input file  !");
+      return ;
+     }
+
+ printf("\n Connecting to Database ...");
+ printf("\n Load Gridstation Data into DB2 ...");
+
+ EXEC SQL CONNECT TO jeddah    ;
+ CHECKERR ("CONNECT TO jeddah");
+
+
+ while( fscanf(fp_i,"\n %d", &feat_num) == 1 )
+      {
+	fscanf(fp_i,"%s", &status      ) ;
+	fscanf(fp_i,"%s", &gridid      ) ;
+	fscanf(fp_i,"%s", &privolt     ) ;
+	fscanf(fp_i,"%s", &secvolt     ) ;
+	fscanf(fp_i,"%s", &mva         ) ;
+
+	printf("\n GRID : %d %s %s %s %s %s",feat_num,status,gridid,privolt,secvolt,mva);
+
+	EXEC SQL INSERT INTO geoinfo.grid
+		 VALUES (:feat_num ,
+			 :status   ,
+			 :gridid   ,
+			 :privolt  ,
+			 :secvolt  ,
+			 :mva        );
+
+	CHECKERR ("INSERT INTO");
+      }
+
+ fclose(fp_i);
+
+ return ;
+*/
+
+/*------------------------*/
+/* load substation data   */
+/*------------------------*/
+
+ fp_i = fopen ("subsorted.dat","rt");
+ if  ( fp_i == NULL )
+     {
+      printf ("\nERROR : Can't open input file  !");
+      return ;
+     }
+
+ printf("\n Connecting to Database ...");
+ printf("\n Load Substation Data into DB2 ...");
+
+ EXEC SQL CONNECT TO jeddah    ;
+ CHECKERR ("CONNECT TO jeddah");
+
+
+ while( fscanf(fp_i,"\n %d", &feat_num) == 1 )
+      {
+	fscanf(fp_i,"%s", &status      ) ;
+	fscanf(fp_i,"%s", &subid       ) ;
+	fscanf(fp_i,"%s", &gridid      ) ;
+	fscanf(fp_i,"%s", &fdrnum      ) ;
+	fscanf(fp_i,"%s", &subtype     ) ;
+	fscanf(fp_i,"%d", &kva         ) ;
+	fscanf(fp_i,"%s", &privolt     ) ;
+	fscanf(fp_i,"%s", &secvolt     ) ;
+
+	feat_num += 305320 ;
+	printf("\n SUB : %d %s %s %s %s %s %d %s %s"
+			 ,feat_num,status,subid,gridid,fdrnum,subtype,kva,privolt,secvolt);
+
+	EXEC SQL INSERT INTO geoinfo.diststn
+		 VALUES (:feat_num ,
+			 :status   ,
+			 :subid    ,
+			 :gridid   ,
+			 :fdrnum   ,
+			 :subtype  ,
+			 :kva      ,
+			 :privolt  ,
+			 :secvolt    );
+
+	CHECKERR ("INSERT INTO");
+      }
+
+ fclose(fp_i);
+
+ return ;
+
+
+/*------------------------*/
+/* load Feeder data       */
+/*------------------------*/
+
+ fp_i = fopen ("fdrsorted.dat","rt");
+ if  ( fp_i == NULL )
+     {
+      printf ("\nERROR : Can't open input file  !");
+      return ;
+     }
+
+ printf("\n Load Feeder Data into DB2 ...");
+
+ EXEC SQL CONNECT TO jeddah    ;
+ CHECKERR ("CONNECT TO jeddah");
+
+ while( fscanf(fp_i,"\n %d", &feat_num) == 1 )
+      {
+	fscanf(fp_i,"%s", &status      ) ;
+	fscanf(fp_i,"%s", &fdrnum      ) ;
+	fscanf(fp_i,"%s", &oh_ugd      ) ;
+	fscanf(fp_i,"%s", &privolt     ) ;
+	fscanf(fp_i,"%d", &length      ) ;
+	fscanf(fp_i,"%s", &gridid      ) ;
+	fscanf(fp_i,"%s", &from        ) ;
+	fscanf(fp_i,"%s", &lmr1        ) ;
+	fscanf(fp_i,"%s", &to          ) ;
+	fscanf(fp_i,"%s", &lmr2        ) ;
+
+
+	printf("\n FDR : %d %s %s",feat_num,status,fdrnum);
+
+	EXEC SQL INSERT INTO geoinfo.mvfeeder
+		 VALUES (:feat_num ,
+			 :status   ,
+			 :fdrnum   ,
+			 :gridid   ,
+			 :oh_ugd   ,
+			 :privolt  ,
+			 :length   ,
+			 :from     ,
+			 :lmr1     ,
+			 :to       ,
+			 :lmr2       );
+
+	CHECKERR ("INSERT INTO");
+      }
+
+ fclose(fp_i);
+
+
+
+
+
+ EXEC SQL CONNECT RESET;
+ CHECKERR ("CONNECT RESET");
+
+}

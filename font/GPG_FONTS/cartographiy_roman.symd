@@ -1,0 +1,679 @@
+REMARK      SET :   CT.ROMAN, DATE:   20 Jun 1999    - TIME 08:42:28
+HEADER  20  20  13  13  13   7   3   1   2  12
+HEADER   0   0  12  12  12   9   6   8   1   0
+****************************************************************
+SYMBOL   0 193   0    1: UPPER  Á  
+STROKE   0   5  12
+STROKE   1   1   3
+STROKE   0   5  12
+STROKE   1   9   3
+STROKE   0   3   6
+STROKE   1   7   6
+END      0  10   0
+****************************************************************
+SYMBOL   0 194   0    2: UPPER  Â  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   6  12
+STROKE   1   8  11
+STROKE   1   8   9
+STROKE   1   6   8
+STROKE   0   2   8
+STROKE   1   6   8
+STROKE   1   8   7
+STROKE   1   8   4
+STROKE   1   6   3
+STROKE   1   2   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 195   0    3: UPPER  Ã  
+STROKE   0   9  11
+STROKE   1   7  12
+STROKE   1   5  12
+STROKE   1   3  11
+STROKE   1   2   9
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   3
+STROKE   1   7   3
+STROKE   1   9   4
+END      0  11   0
+****************************************************************
+SYMBOL   0 196   0    4: UPPER  Ä  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   5  12
+STROKE   1   7  11
+STROKE   1   8   9
+STROKE   1   8   6
+STROKE   1   7   4
+STROKE   1   5   3
+STROKE   1   2   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 197   0    5: UPPER  Å  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   8  12
+STROKE   0   2   8
+STROKE   1   6   8
+STROKE   0   2   3
+STROKE   1   8   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 198   0    6: UPPER  Æ  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   8  12
+STROKE   0   2   8
+STROKE   1   6   8
+END      0   9   0
+****************************************************************
+SYMBOL   0 199   0    7: UPPER  Ç  
+STROKE   0   9  11
+STROKE   1   7  12
+STROKE   1   5  12
+STROKE   1   3  11
+STROKE   1   2   9
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   3
+STROKE   1   7   3
+STROKE   1   9   4
+STROKE   1   9   7
+STROKE   0   6   7
+STROKE   1   9   7
+END      0  11   0
+****************************************************************
+SYMBOL   0 200   0    8: UPPER  È  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   8  12
+STROKE   1   8   3
+STROKE   0   2   8
+STROKE   1   8   8
+END      0  10   0
+****************************************************************
+SYMBOL   0 201   0    9: UPPER  É  
+STROKE   0   2  12
+STROKE   1   2   3
+END      0   4   0
+****************************************************************
+SYMBOL   0 209   0   10: UPPER  Ñ  
+STROKE   0   5  12
+STROKE   1   5   5
+STROKE   1   4   3
+STROKE   1   2   3
+STROKE   1   1   5
+STROKE   1   1   6
+END      0   7   0
+****************************************************************
+SYMBOL   0 210   0   11: UPPER  Ò  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   8  12
+STROKE   1   2   6
+STROKE   0   4   8
+STROKE   1   8   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 211   0   12: UPPER  Ó  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2   3
+STROKE   1   8   3
+END      0   9   0
+****************************************************************
+SYMBOL   0 212   0   13: UPPER  Ô  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   6   3
+STROKE   0  10  12
+STROKE   1   6   3
+STROKE   0  10  12
+STROKE   1  10   3
+END      0  12   0
+****************************************************************
+SYMBOL   0 213   0   14: UPPER  Õ  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   8   3
+STROKE   0   8  12
+STROKE   1   8   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 214   0   15: UPPER  Ö  
+STROKE   0   5  12
+STROKE   1   3  11
+STROKE   1   2   9
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   3
+STROKE   1   6   3
+STROKE   1   8   4
+STROKE   1   9   6
+STROKE   1   9   9
+STROKE   1   8  11
+STROKE   1   6  12
+STROKE   1   5  12
+END      0  11   0
+****************************************************************
+SYMBOL   0 215   0   16: UPPER  ×  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   6  12
+STROKE   1   8  11
+STROKE   1   8   8
+STROKE   1   6   7
+STROKE   1   2   7
+END      0  10   0
+****************************************************************
+SYMBOL   0 216   0   17: UPPER  Ø  
+STROKE   0   5  12
+STROKE   1   3  11
+STROKE   1   2   9
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   3
+STROKE   1   6   3
+STROKE   1   8   4
+STROKE   1   9   6
+STROKE   1   9   9
+STROKE   1   8  11
+STROKE   1   6  12
+STROKE   1   5  12
+STROKE   0   6   5
+STROKE   1   9   2
+END      0  11   0
+****************************************************************
+SYMBOL   0 217   0   18: UPPER  Ù  
+STROKE   0   2  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   6  12
+STROKE   1   8  11
+STROKE   1   8   8
+STROKE   1   6   7
+STROKE   1   2   7
+STROKE   0   5   7
+STROKE   1   8   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 226   0   19: UPPER  â  
+STROKE   0   8  11
+STROKE   1   6  12
+STROKE   1   4  12
+STROKE   1   2  11
+STROKE   1   2  10
+STROKE   1   3   9
+STROKE   1   7   7
+STROKE   1   8   6
+STROKE   1   8   4
+STROKE   1   6   3
+STROKE   1   4   3
+STROKE   1   2   4
+END      0  10   0
+****************************************************************
+SYMBOL   0 227   0   20: UPPER  ã  
+STROKE   0   5  12
+STROKE   1   5   3
+STROKE   0   1  12
+STROKE   1   9  12
+END      0  10   0
+****************************************************************
+SYMBOL   0 228   0   21: UPPER  ä  
+STROKE   0   2  12
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   3
+STROKE   1   6   3
+STROKE   1   8   4
+STROKE   1   9   6
+STROKE   1   9  12
+END      0  11   0
+****************************************************************
+SYMBOL   0 229   0   22: UPPER  å  
+STROKE   0   1  12
+STROKE   1   5   3
+STROKE   0   9  12
+STROKE   1   5   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 230   0   23: UPPER  æ  
+STROKE   0   2  12
+STROKE   1   4   3
+STROKE   0   6  12
+STROKE   1   4   3
+STROKE   0   6  12
+STROKE   1   8   3
+STROKE   0  10  12
+STROKE   1   8   3
+END      0  12   0
+****************************************************************
+SYMBOL   0 231   0   24: UPPER  ç  
+STROKE   0   2  12
+STROKE   1   8   3
+STROKE   0   8  12
+STROKE   1   2   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 232   0   25: UPPER  è  
+STROKE   0   1  12
+STROKE   1   5   8
+STROKE   1   5   3
+STROKE   0   9  12
+STROKE   1   5   8
+END      0  10   0
+****************************************************************
+SYMBOL   0 233   0   26: UPPER  é  
+STROKE   0   8  12
+STROKE   1   2   3
+STROKE   0   2  12
+STROKE   1   8  12
+STROKE   0   2   3
+STROKE   1   8   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 240   0  200: NUMER  ð  
+STROKE   0   5  12
+STROKE   1   3  11
+STROKE   1   2   9
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   3
+STROKE   1   7   4
+STROKE   1   8   6
+STROKE   1   8   9
+STROKE   1   7  11
+STROKE   1   5  12
+END      0  10   0
+****************************************************************
+SYMBOL   0 241   0  201: NUMER  ñ  
+STROKE   0   3  10
+STROKE   1   5  12
+STROKE   1   5   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 242   0  202: NUMER  ò  
+STROKE   0   2  11
+STROKE   1   4  12
+STROKE   1   6  12
+STROKE   1   8  11
+STROKE   1   8   9
+STROKE   1   7   7
+STROKE   1   2   3
+STROKE   1   8   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 243   0  203: NUMER  ó  
+STROKE   0   2  11
+STROKE   1   4  12
+STROKE   1   6  12
+STROKE   1   8  11
+STROKE   1   8   9
+STROKE   1   6   8
+STROKE   0   5   8
+STROKE   1   6   8
+STROKE   1   8   7
+STROKE   1   8   4
+STROKE   1   6   3
+STROKE   1   4   3
+STROKE   1   2   4
+END      0  10   0
+****************************************************************
+SYMBOL   0 244   0  204: NUMER  ô  
+STROKE   0   6  12
+STROKE   1   6   3
+STROKE   0   6  12
+STROKE   1   1   6
+STROKE   1   9   6
+END      0  10   0
+****************************************************************
+SYMBOL   0 245   0  205: NUMER  õ  
+STROKE   0   3  12
+STROKE   1   2   8
+STROKE   1   4   9
+STROKE   1   5   9
+STROKE   1   7   8
+STROKE   1   8   6
+STROKE   1   7   4
+STROKE   1   5   3
+STROKE   1   4   3
+STROKE   1   2   4
+STROKE   0   3  12
+STROKE   1   7  12
+END      0  10   0
+****************************************************************
+SYMBOL   0 246   0  206: NUMER  ö  
+STROKE   0   7  12
+STROKE   1   5  12
+STROKE   1   3  11
+STROKE   1   2   9
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   3
+STROKE   1   7   4
+STROKE   1   8   6
+STROKE   1   7   8
+STROKE   1   5   9
+STROKE   1   3   8
+STROKE   1   2   6
+END      0  10   0
+****************************************************************
+SYMBOL   0 247   0  207: NUMER  ÷  
+STROKE   0   8  12
+STROKE   1   4   3
+STROKE   0   2  12
+STROKE   1   8  12
+END      0  10   0
+****************************************************************
+SYMBOL   0 248   0  208: NUMER  ø  
+STROKE   0   4  12
+STROKE   1   2  11
+STROKE   1   2   9
+STROKE   1   4   8
+STROKE   1   6   8
+STROKE   1   8   9
+STROKE   1   8  11
+STROKE   1   6  12
+STROKE   1   4  12
+STROKE   0   4   8
+STROKE   1   2   7
+STROKE   1   2   4
+STROKE   1   4   3
+STROKE   1   6   3
+STROKE   1   8   4
+STROKE   1   8   7
+STROKE   1   6   8
+END      0  10   0
+****************************************************************
+SYMBOL   0 249   0  209: NUMER  ù  
+STROKE   0   8   9
+STROKE   1   7   7
+STROKE   1   5   6
+STROKE   1   3   7
+STROKE   1   2   9
+STROKE   1   3  11
+STROKE   1   5  12
+STROKE   1   7  11
+STROKE   1   8   9
+STROKE   1   8   6
+STROKE   1   7   4
+STROKE   1   5   3
+STROKE   1   3   3
+END      0  10   0
+****************************************************************
+SYMBOL   0 250   0  223: BAR   
+STROKE   0   2  13
+STROKE   1   2   2
+END      0   4   0
+****************************************************************
+SYMBOL   0   1   0  218: DEGREE
+STROKE   0   3  12
+STROKE   1   2  11
+STROKE   1   2   9
+STROKE   1   3   8
+STROKE   1   5   8
+STROKE   1   6   9
+STROKE   1   6  11
+STROKE   1   5  12
+STROKE   1   3  12
+END      0   8   0
+****************************************************************
+SYMBOL   0   2   0  230: LEFT QUOTE
+STROKE   0   3  12
+STROKE   1   2  10
+STROKE   1   2   8
+STROKE   1   3   8
+STROKE   1   3   9
+STROKE   1   2   9
+END      0   5   0
+****************************************************************
+SYMBOL   0   3   0  231: RIGHT QUOTE   
+STROKE   0   3  11
+STROKE   1   2  11
+STROKE   1   2  12
+STROKE   1   3  12
+STROKE   1   3  10
+STROKE   1   2   8
+END      0   5   0
+****************************************************************
+SYMBOL   0   4   0  227: CROSS 
+STROKE   0   2  10
+STROKE   1   8   4
+STROKE   0   8  10
+STROKE   1   2   4
+END      0  10   0
+****************************************************************
+SYMBOL   0   5   0  229: DOT   
+STROKE   0   2   8
+STROKE   1   2   7
+STROKE   1   3   7
+STROKE   1   3   8
+STROKE   1   2   8
+END      0   5   0
+****************************************************************
+SYMBOL   0   6   0  232: ARROW 
+STROKE   0   7  10
+STROKE   1  10   7
+STROKE   1   7   4
+STROKE   0   2   7
+STROKE   1  10   7
+END      0  12   0
+****************************************************************
+SYMBOL   0   7   0  235: LOZENGE   
+STROKE   0   2  11
+STROKE   1   3   8
+STROKE   1   3   6
+STROKE   1   2   3
+STROKE   0  10  11
+STROKE   1   9   8
+STROKE   1   9   6
+STROKE   1  10   3
+STROKE   0   2  11
+STROKE   1   5  10
+STROKE   1   7  10
+STROKE   1  10  11
+STROKE   0   2   3
+STROKE   1   5   4
+STROKE   1   7   4
+STROKE   1  10   3
+END      0  12   0
+****************************************************************
+SYMBOL   0  64   0 SPACE   
+END      0   9   0
+****************************************************************
+SYMBOL   0  75   0  210: PERIOD
+STROKE   0   2   4
+STROKE   1   2   3
+STROKE   1   3   3
+STROKE   1   3   4
+STROKE   1   2   4
+END      0   5   0
+****************************************************************
+SYMBOL   0  77   0  221: LEFT PAREN.   
+STROKE   0   5  13
+STROKE   1   3  11
+STROKE   1   2   9
+STROKE   1   2   6
+STROKE   1   3   4
+STROKE   1   5   2
+END      0   7   0
+****************************************************************
+SYMBOL   0  78   0  225: ADDITION  
+STROKE   0   6  11
+STROKE   1   6   3
+STROKE   0   2   7
+STROKE   1  10   7
+END      0  12   0
+****************************************************************
+SYMBOL   0  80   0  234: AMPERSAND 
+STROKE   0  10   7
+STROKE   1   9   7
+STROKE   1   8   6
+STROKE   1   7   4
+STROKE   1   6   3
+STROKE   1   3   3
+STROKE   1   2   4
+STROKE   1   2   6
+STROKE   1   3   7
+STROKE   1   6   8
+STROKE   1   7   9
+STROKE   1   7  11
+STROKE   1   6  12
+STROKE   1   4  12
+STROKE   1   3  11
+STROKE   1   3   9
+STROKE   1   5   6
+STROKE   1   7   4
+STROKE   1   9   3
+STROKE   1  10   3
+END      0  12   0
+****************************************************************
+SYMBOL   0  90   0  214: EXCLAMATION   
+STROKE   0   2  12
+STROKE   1   2   7
+STROKE   0   3  12
+STROKE   1   3   7
+STROKE   0   2   4
+STROKE   1   2   3
+STROKE   1   3   3
+STROKE   1   3   4
+STROKE   1   2   4
+END      0   5   0
+****************************************************************
+SYMBOL   0  91   0  219: DOLLAR SIGN   
+STROKE   0   8  11
+STROKE   1   6  12
+STROKE   1   4  12
+STROKE   1   2  11
+STROKE   1   2   9
+STROKE   1   4   8
+STROKE   1   7   7
+STROKE   1   8   6
+STROKE   1   8   4
+STROKE   1   6   3
+STROKE   1   4   3
+STROKE   1   2   4
+STROKE   0   5  13
+STROKE   1   5   2
+END      0  10   0
+****************************************************************
+SYMBOL   0  92   0  228: ASTERISK  
+STROKE   0   5  10
+STROKE   1   5   4
+STROKE   0   2   9
+STROKE   1   8   5
+STROKE   0   8   9
+STROKE   1   2   5
+END      0  10   0
+****************************************************************
+SYMBOL   0  93   0  222: RIGHT PAREN.  
+STROKE   0   2  13
+STROKE   1   4  11
+STROKE   1   5   9
+STROKE   1   5   6
+STROKE   1   4   4
+STROKE   1   2   2
+END      0   7   0
+****************************************************************
+SYMBOL   0  94   0  213: SEMICOLON 
+STROKE   0   2   9
+STROKE   1   2   8
+STROKE   1   3   8
+STROKE   1   3   9
+STROKE   1   2   9
+STROKE   0   3   3
+STROKE   1   2   3
+STROKE   1   2   4
+STROKE   1   3   4
+STROKE   1   3   2
+STROKE   1   2   0
+END      0   5   0
+****************************************************************
+SYMBOL   0  96   0  224: SUBTRACTION   
+STROKE   0   2   7
+STROKE   1  10   7
+END      0  12   0
+****************************************************************
+SYMBOL   0  97   0  220: SOLIDUS   
+STROKE   0   9  13
+STROKE   1   1   2
+END      0  10   0
+****************************************************************
+SYMBOL   0 107   0  211: COMMA 
+STROKE   0   3   3
+STROKE   1   2   3
+STROKE   1   2   4
+STROKE   1   3   4
+STROKE   1   3   2
+STROKE   1   2   0
+END      0   5   0
+****************************************************************
+SYMBOL   0 111   0  215: QUESTION  
+STROKE   0   2  11
+STROKE   1   4  12
+STROKE   1   5  12
+STROKE   1   7  11
+STROKE   1   7   9
+STROKE   1   4   8
+STROKE   1   4   7
+STROKE   1   5   7
+STROKE   1   5   8
+STROKE   1   7   9
+STROKE   0   4   4
+STROKE   1   4   3
+STROKE   1   5   3
+STROKE   1   5   4
+STROKE   1   4   4
+END      0   9   0
+****************************************************************
+SYMBOL   0 122   0  212: COLON 
+STROKE   0   2   9
+STROKE   1   2   8
+STROKE   1   3   8
+STROKE   1   3   9
+STROKE   1   2   9
+STROKE   0   2   4
+STROKE   1   2   3
+STROKE   1   3   3
+STROKE   1   3   4
+STROKE   1   2   4
+END      0   5   0
+****************************************************************
+SYMBOL   0 123   0  233: NUMBER
+STROKE   0   5  13
+STROKE   1   3   2
+STROKE   0   8  13
+STROKE   1   6   2
+STROKE   0   2   9
+STROKE   1   9   9
+STROKE   0   2   6
+STROKE   1   9   6
+END      0  11   0
+****************************************************************
+SYMBOL   0 125   0  216: PRIME 
+STROKE   0   2  12
+STROKE   1   2   8
+END      0   4   0
+****************************************************************
+SYMBOL   0 126   0  226: EQUALITY  
+STROKE   0   2   9
+STROKE   1  10   9
+STROKE   0   2   5
+STROKE   1  10   5
+END      0  12   0
+****************************************************************
+SYMBOL   0 127   0  217: SECOND
+STROKE   0   2  12
+STROKE   1   2   8
+STROKE   0   6  12
+STROKE   1   6   8
+END      0   8   0

@@ -1,0 +1,553 @@
+/*------------------------------------------------------------------------*/
+/*              geoINFO/6000  Trace Network ( geotrace.sqc )              */
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*                          Standard Include Files                        */
+/*------------------------------------------------------------------------*/
+#include "include/geoIMSextern.h"
+
+#include <sqlenv.h>
+#include <sqlda.h>
+
+// #define  CHECKERR(CE_STR)  if(check_error (CE_STR,&sqlca) != 0) printf("error");
+EXEC SQL INCLUDE SQLCA;
+
+/*------------------------------------------------------------------------*/
+/*                           Functions Prototypes                         */
+/*------------------------------------------------------------------------*/
+void get_connected_nan();
+
+
+/*------------------------------------------------------------------------*/
+/*                   Global Variable Definition                           */
+/*------------------------------------------------------------------------*/
+
+int   k                  ;
+int   found              ;
+int   stack_count        ;
+int   conn_stack [10000] ;
+
+
+EXEC SQL BEGIN DECLARE SECTION;
+   long    number              ;
+   long    conn_feat           ;
+   long    conn_feat1          ;
+   long    conn_feat2          ;
+   long    conn_feat3          ;
+   long    weight              ;
+   char    grid    [13]        ;
+   char    code    [13]        ;
+   char    code1   [13]        ;
+
+   long    feat_num            ;
+   char    feat_code[13]       ;
+   long    type                ;
+   long    layer               ;
+   long    network             ;
+   char    scale_range [6]     ;
+   char    displayed   [1]     ;
+   char    selectable  [1]     ;
+   char    has_attrib  [1]     ;
+   char    has_text    [1]     ;
+   char    rdisplayed  [2]     ;
+   char    rselectable [2]     ;
+   char    rhas_attrib [2]     ;
+   char    rhas_text   [2]     ;
+   short   feat_color          ;
+   short   feat_linetype       ;
+   short   feat_linewidth      ;
+   long    x_min_feat          ;
+   long    y_min_feat          ;
+   long    x_max_feat          ;
+   long    y_max_feat          ;
+   long    x_base              ;
+   long    y_base              ;
+   long    x_end               ;
+   long    y_end               ;
+   long    xy_count            ;
+   long    symb_num            ;
+   long    symb_size           ;
+   long    symb_angle          ;
+   long    text_count          ;
+   long    seq                 ;
+   long    x_1                 ;
+   long    y_1                 ;
+   long    x_2                 ;
+   long    y_2                 ;
+   long    x_3                 ;
+   long    y_3                 ;
+   long    x_4                 ;
+   long    y_4                 ;
+   long    x_5                 ;
+   long    y_5                 ;
+   long    x_6                 ;
+   long    y_6                 ;
+   long    x_7                 ;
+   long    y_7                 ;
+   long    x_8                 ;
+   long    y_8                 ;
+   long    x_9                 ;
+   long    y_9                 ;
+   long    x_10                ;
+   long    y_10                ;
+   long    text_x              ;
+   long    text_y              ;
+   long    text_size           ;
+   long    text_angle          ;
+   short   text_just           ;
+   short   text_font           ;
+   char    textstring [51]     ;
+EXEC SQL END DECLARE SECTION;
+
+
+/*------------------------------------------------------------------------*/
+/*                              trace_net()                               */
+/*------------------------------------------------------------------------*/
+
+void trace_net(long start_feat, char *term_feat)
+{
+ i = 1           ;
+ conn_count  = 0 ;
+ stack_count = 0 ;
+
+
+ conn_stack[++stack_count] = start_feat ;
+
+ while ( i <= stack_count )
+       {
+	found = 0 ;
+
+	for ( j=1 ; j <= conn_count ; j++ )
+	    {
+	     if ( conn_stack[i] == conn_list[j] )  { found = 1 ; break ; }
+	    }
+
+	if ( found == 0 )
+	   {
+	    conn_list[++conn_count] = conn_stack[i] ;
+	
+	    get_connected_nan(conn_stack[i],term_feat);
+	   }
+
+	i++;
+       }
+
+ /*
+ printf ("\n conn_count  = %d",conn_count  );
+ for ( i=1 ; i<= conn_count ; i++ )
+     { printf ("\n feat[%d] = %d",i,conn_list[i] ); }  */
+
+}
+/*---------------------------------------------------------------------------*/
+/*                            append_net()                                   */
+/*---------------------------------------------------------------------------*/
+
+void append_net(long start_feat, char *term_feat)
+{
+ i = 1 ;
+
+ conn_stack[++stack_count] = start_feat ;
+
+ while ( i <= stack_count )
+       {
+	found = 0 ;
+
+	for ( j=1 ; j <= conn_count ; j++ )
+	    {
+	     if ( conn_stack[i] == conn_list[j] )  { found = 1 ; break ; }
+	    }
+
+	if ( found == 0 )
+	   {
+	    conn_list[++conn_count] = conn_stack[i] ;
+	    get_connected_nan(conn_stack[i],term_feat);
+	   }
+
+	i++;
+       }
+
+}
+/*------------------------------------------------------------------------*/
+/*                        get_connected_nan()                             */
+/*------------------------------------------------------------------------*/
+
+void get_connected_nan(int feat_num,char *term_feat)
+{
+
+ EXEC SQL DECLARE nan1  CURSOR FOR
+	  SELECT  S_NODE ,
+		  ARC    ,
+		  E_NODE
+	  FROM    CONNECTIVITY
+	  WHERE   S_NODE = :number  OR  E_NODE = :number
+	  FOR     READ ONLY ;
+
+
+ number = feat_num ;
+
+ EXEC SQL SELECT FEAT_CODE , TYPE
+	  INTO   :code1    , :type
+	  FROM   FEATURES
+	  WHERE  FEAT_NUM = :number  ;
+
+ sscanf (code1,"%s",code) ;
+
+ if (SQLCODE != 0)
+    {
+     printf("\nERROR : get_connected_nan [SQLCODE] = %d\n",SQLCODE);
+     return;
+    }
+
+
+ if ( (type == 1) && (strcmp(code,term_feat) != 0) )
+    {
+     EXEC SQL OPEN  nan1 ;     /* CHECKERR ("OPEN CURSOR"); */
+
+     do {
+	 EXEC SQL FETCH nan1 INTO :conn_feat1, :conn_feat2, :conn_feat3 ;
+
+	 if (SQLCODE != 0) break ;
+	 conn_stack[++stack_count] = conn_feat1 ;
+	 conn_stack[++stack_count] = conn_feat2 ;
+	 conn_stack[++stack_count] = conn_feat3 ;
+	 /*
+	 printf ("\n CONN ROW %d %d %d",conn_feat1,conn_feat2,conn_feat3);
+	 */
+	} while(1);
+     EXEC SQL CLOSE nan1  ;
+    }
+else
+ if ( (type == 2) && (strcmp(code,term_feat) != 0) )
+    {
+     EXEC SQL SELECT S_NODE      , E_NODE
+	      INTO   :conn_feat1 , :conn_feat3
+	      FROM   CONNECTIVITY
+	      WHERE  ARC = :number ;
+
+     if (SQLCODE != 0) return ;
+     conn_stack[++stack_count] = conn_feat1 ;
+     conn_stack[++stack_count] = conn_feat3 ;
+     /*
+     printf ("\n CONN ROW %d %d %d",conn_feat1,number,conn_feat3);
+     */
+    }
+
+ return ;
+}
+/*------------------------------------------------------------------------*/
+/*                          network_ret()                                 */
+/*------------------------------------------------------------------------*/
+
+void network_ret(char *grid,char *feeder)
+{
+ i = 1           ;
+ conn_count  = 0 ;
+ stack_count = 0 ;
+
+
+ strcpy(code,grid);                           /* Get Grid feat_num     */
+ EXEC SQL SELECT feat_num
+	  INTO   :number
+	  FROM   grid
+	  WHERE  grid_id = :grid    ;
+
+ EXEC SQL DECLARE t9 CURSOR FOR               /* Get Feeder's feat_num  */
+	  SELECT  ARC                         /* Connected to GRID      */
+	  FROM    connectivity
+	  WHERE   S_NODE  = :number
+	  FOR     READ ONLY ;
+
+ EXEC SQL OPEN  t9 ;
+ do {
+     EXEC SQL FETCH t9  INTO :conn_feat ;
+     if (SQLCODE != 0) break ;
+     conn_stack[++stack_count] = conn_feat ;
+    } while(1);
+ EXEC SQL CLOSE t9 ;
+
+
+
+ for ( i=1 ; i<=stack_count ; i++ )
+     {
+      number = conn_stack[i] ;
+      EXEC SQL SELECT FEEDER_NUM
+	       INTO   :code1
+	       FROM   MVFEEDER
+	       WHERE  FEAT_NUM = :number ;
+      sscanf (code1,"%s",code) ;
+
+      /*  one feeder
+      trace_net(number,"GRIDSTN") ; // one grid //
+      */
+      if ( strcmp (code,feeder) == 0)
+	 {
+	  /* printf("\nFEEDER feat_num %d",number); */
+	  trace_net(number,"GRIDSTN") ;
+	 }
+     }
+
+
+ printf("\nINFO  : Retreiving from Database ...");
+
+ EXEC SQL DECLARE  NR_COORD  CURSOR FOR
+	  SELECT   seq,
+		   x_1 , y_1,
+		   x_2 , y_2,
+		   x_3 , y_3,
+		   x_4 , y_4,
+		   x_5 , y_5,
+		   x_6 , y_6,
+		   x_7 , y_7,
+		   x_8 , y_8,
+		   x_9 , y_9,
+		   x_10, y_10
+	  FROM     coordinates
+	  WHERE    feat_num = :feat_num
+	  FOR      READ ONLY;
+ // CHECKERR ("DECLARE CURSOR");
+
+ EXEC SQL DECLARE TEXT CURSOR FOR
+	  SELECT   x1     ,
+		   y1     ,
+		   size   ,
+		   angle  ,
+		   just   ,
+		   font   ,
+		   string
+	  FROM     text
+	  WHERE    feat_num = :feat_num
+	  FOR      READ ONLY;
+ // CHECKERR ("DECLARE CURSOR");
+
+
+ i = 0          ;
+ xy_index   = 0 ;
+ text_index = 0 ;
+
+ for ( k=1 ; k<=conn_count ; k++ )
+     {
+      number = conn_list[k] ;
+      EXEC SQL SELECT  feat_num,
+		       feat_code,
+		       type,
+		       layer,
+		       network,
+		       scale_range,
+		       displayed,
+		       selectable,
+		       has_attrib,
+		       has_text,
+		       color,
+		       line_type,
+		       line_width,
+		       x_base,
+		       y_base,
+		       x_end,
+		       y_end,
+		       xy_count,
+		       symb_num,
+		       symb_size,
+		       symb_angle,
+		       text_count
+	       INTO    :feat_num,
+		       :feat_code,
+		       :type,
+		       :layer,
+		       :network,
+		       :scale_range,
+		       :rdisplayed,
+		       :rselectable,
+		       :rhas_attrib,
+		       :rhas_text,
+		       :feat_color,
+		       :feat_linetype,
+		       :feat_linewidth,
+		       :x_base,
+		       :y_base,
+		       :x_end,
+		       :y_end,
+		       :xy_count,
+		       :symb_num,
+		       :symb_size,
+		       :symb_angle,
+		       :text_count
+	       FROM    features
+	       WHERE   feat_num = :number ;
+
+      if (SQLCODE != 0)
+	 {
+	  printf("\nNETWORK RET : ERROR Reading from Features SQLCODE = %d\n",SQLCODE);
+	  break;
+	 }
+
+      feat[++i].num         = feat_num       ;
+      sscanf (feat_code,"%s",&feat[i].code)  ; /* Trim DB2trailing spaces      */
+      feat[i].type          = type           ;
+      feat[i].layer         = layer          ;
+      feat[i].network       = network        ;
+      feat[i].scale_range[0]= scale_range[0] ;
+      feat[i].scale_range[1]= scale_range[1] ;
+      feat[i].scale_range[2]= scale_range[2] ;
+      feat[i].scale_range[3]= scale_range[3] ;
+      feat[i].scale_range[4]= scale_range[4] ;
+      feat[i].displayed[0]  = rdisplayed[0]  ;
+      feat[i].selectble[0]  = rselectable[0] ;
+      feat[i].has_attrib[0] = rhas_attrib[0] ;
+      feat[i].has_text[0]   = rhas_text[0]   ;
+      feat[i].color         = feat_color     ;
+      feat[i].linetype      = feat_linetype  ;
+      feat[i].linewidth     = feat_linewidth ;
+      feat[i].xbase         = x_base         ;
+      feat[i].ybase         = y_base         ;
+      feat[i].xend          = x_end          ;
+      feat[i].yend          = y_end          ;
+      feat[i].xy_count      = xy_count       ;
+      feat[i].text_count    = text_count     ;
+
+
+      if ( feat[i].xy_count > 0 )
+	 {
+	  EXEC SQL OPEN NR_COORD ;
+
+	  feat[i].xy = xy_index ;
+	  j = 0 ;
+
+	  for (iii=1; iii<=(feat[i].xy_count/10); iii++)
+	      {
+	       EXEC SQL FETCH NR_COORD INTO  :seq ,:x_1 ,:y_1,:x_2 ,:y_2,:x_3 ,:y_3,
+					     :x_4 ,:y_4,:x_5 ,:y_5,:x_6 ,:y_6,
+					     :x_7 ,:y_7,:x_8 ,:y_8,:x_9 ,:y_9,:x_10,:y_10;
+
+	       if (SQLCODE == 0)
+		  {
+		   x[xy_index + ++j]=x_1 ; y[xy_index+j]=y_1 ;
+		   x[xy_index + ++j]=x_2 ; y[xy_index+j]=y_2 ;
+		   x[xy_index + ++j]=x_3 ; y[xy_index+j]=y_3 ;
+		   x[xy_index + ++j]=x_4 ; y[xy_index+j]=y_4 ;
+		   x[xy_index + ++j]=x_5 ; y[xy_index+j]=y_5 ;
+		   x[xy_index + ++j]=x_6 ; y[xy_index+j]=y_6 ;
+		   x[xy_index + ++j]=x_7 ; y[xy_index+j]=y_7 ;
+		   x[xy_index + ++j]=x_8 ; y[xy_index+j]=y_8 ;
+		   x[xy_index + ++j]=x_9 ; y[xy_index+j]=y_9 ;
+		   x[xy_index + ++j]=x_10; y[xy_index+j]=y_10;
+		  }
+		else
+		  {
+		   break ;
+		  }
+	      }
+
+	  /* Get Last COORDINTE  ROW  */
+	  EXEC SQL FETCH NR_COORD INTO  :seq ,
+				  :x_1 ,:y_1,
+				  :x_2 ,:y_2,
+				  :x_3 ,:y_3,
+				  :x_4 ,:y_4,
+				  :x_5 ,:y_5,
+				  :x_6 ,:y_6,
+				  :x_7 ,:y_7,
+				  :x_8 ,:y_8,
+				  :x_9 ,:y_9,
+				  :x_10,:y_10   ;
+	  if (SQLCODE == 0)
+	     {
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_1 ; y[xy_index+j]=y_1 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_2 ; y[xy_index+j]=y_2 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_3 ; y[xy_index+j]=y_3 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_4 ; y[xy_index+j]=y_4 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_5 ; y[xy_index+j]=y_5 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_6 ; y[xy_index+j]=y_6 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_7 ; y[xy_index+j]=y_7 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_8 ; y[xy_index+j]=y_8 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_9 ; y[xy_index+j]=y_9 ;}
+	      j++; if ( j <= feat[i].xy_count ) { x[xy_index+j]=x_10; y[xy_index+j]=y_10;}
+	     }
+
+	  xy_index = xy_index + feat[i].xy_count ;
+
+	  EXEC SQL CLOSE NR_COORD;     /* CHECKERR ("CLOSE CURSOR"); */
+	 }
+
+ else if ( feat[i].type == 1 )
+	 {
+	  feat[i].symb_num   = symb_num    ;
+	  feat[i].symb_size  = symb_size   ;
+	  feat[i].symb_angle = symb_angle  ;
+	 }
+
+
+     if  ( feat[i].has_text[0] == 'Y' )
+	 {
+	  EXEC SQL OPEN TEXT;    /* CHECKERR ("OPEN CURSOR"); */
+
+	  feat[i].text = text_index ;
+
+	  for (iii=1; iii<=feat[i].text_count; iii++)
+	      {
+	       EXEC SQL FETCH TEXT INTO :text_x      ,
+				        :text_y      ,
+				        :text_size   ,
+				        :text_angle  ,
+				        :text_just   ,
+				        :text_font   ,
+				        :textstring   ;
+	       if (SQLCODE == 0)
+		  {
+		   text[feat[i].text+iii].x     = text_x     ;
+		   text[feat[i].text+iii].y     = text_y     ;
+		   text[feat[i].text+iii].size  = text_size  ;
+		   text[feat[i].text+iii].angle = text_angle ;
+		   text[feat[i].text+iii].just  = text_just  ;
+		   text[feat[i].text+iii].font  = text_font  ;
+		   strcpy(text[feat[i].text+iii].string,textstring);
+		  }
+		else
+		  {
+		   break ;
+		  }
+	      }
+
+	  text_index = text_index + feat[i].text_count ;
+	  EXEC SQL CLOSE TEXT;     /* CHECKERR ("CLOSE CURSOR"); */
+	 }
+
+     switch(feat[i].color)
+	   {
+	    case 1:  feat[i].color = blue.pixel  ;  break;
+	    case 2:  feat[i].color = red.pixel   ;  break;
+	    case 3:  feat[i].color = pink.pixel  ;  break;
+	    case 4:  feat[i].color = green.pixel ;  break;
+	    case 5:  feat[i].color = cyan.pixel  ;  break;
+	    case 6:  feat[i].color = yellow.pixel;  break;
+	    case 7:  feat[i].color = white.pixel ;  break;
+	    case 8:  feat[i].color = black.pixel ;  break;
+	    case 9:  feat[i].color = gray.pixel  ;  break;
+	    case 10: feat[i].color = wheat.pixel ;  break;
+	    case 11: feat[i].color = brown.pixel ;  break;
+	    case 12: feat[i].color = orange.pixel;  break;
+
+	    default: feat[i].color = brown.pixel ;  break;
+	   }
+
+
+     }  /* End of Ret. LOOP */
+
+
+ printf("\n End of Retreival Process ...\n");
+
+ feat_count = i          ;
+ xy_LAST    = xy_index   ;
+ text_LAST  = text_index ;
+
+ printf ("\nINFO  : Feature Count   = [%d]",feat_count);
+ printf ("\nINFO  : LAST xy Index   = [%d]",xy_LAST   );
+ printf ("\nINFO  : LAST text Index = [%d]",text_LAST );
+ printf ("\n");
+
+ db_opened[0] = 'Y' ;
+ update_layer()     ;
+ display_scale()    ;
+ zoom_all("test.png")           ;
+ // normal_cursor()    ;
+}

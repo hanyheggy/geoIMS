@@ -1,0 +1,4 @@
+
+# cc -c confont.c
+
+cc -oconfont confont.c -lXm -lXt -lX11 -lm -O3

@@ -1,0 +1,2692 @@
+REMARK      SET :   STANDARD, DATE:   11 Jan 1998    - TIME 14:57:05
+HEADER  64  64  62  50  49  34   7   0 -10  50
+HEADER   0   0  36  50  50  50  25  25   0   0
+****************************************************************
+SYMBOL   0 129   0 LOWER CASE A
+STROKE   0  24  34
+STROKE   1  24   7
+STROKE   0  24  28
+STROKE   1  20  32
+STROKE   1  16  34
+STROKE   1  10  34
+STROKE   1   6  32
+STROKE   1   2  28
+STROKE   1   0  22
+STROKE   1   0  18
+STROKE   1   2  12
+STROKE   1   6   9
+STROKE   1  10   7
+STROKE   1  16   7
+STROKE   1  20   9
+STROKE   1  24  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 130   0 LOWER CASE B
+STROKE   0   0  49
+STROKE   1   0   7
+STROKE   0   0  28
+STROKE   1   4  32
+STROKE   1   8  34
+STROKE   1  14  34
+STROKE   1  18  32
+STROKE   1  22  28
+STROKE   1  24  22
+STROKE   1  24  18
+STROKE   1  22  12
+STROKE   1  18   9
+STROKE   1  14   7
+STROKE   1   8   7
+STROKE   1   4   9
+STROKE   1   0  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 131   0 LOWER CASE C
+STROKE   0  24  28
+STROKE   1  20  32
+STROKE   1  16  34
+STROKE   1  10  34
+STROKE   1   6  32
+STROKE   1   2  28
+STROKE   1   0  22
+STROKE   1   0  18
+STROKE   1   2  12
+STROKE   1   6   9
+STROKE   1  10   7
+STROKE   1  16   7
+STROKE   1  20   9
+STROKE   1  24  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 132   0 LOWER CASE D
+STROKE   0  24  49
+STROKE   1  24   7
+STROKE   0  24  28
+STROKE   1  20  32
+STROKE   1  16  34
+STROKE   1  10  34
+STROKE   1   6  32
+STROKE   1   2  28
+STROKE   1   0  22
+STROKE   1   0  18
+STROKE   1   2  12
+STROKE   1   6   9
+STROKE   1  10   7
+STROKE   1  16   7
+STROKE   1  20   9
+STROKE   1  24  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 133   0 LOWER CASE E
+STROKE   0   0  22
+STROKE   1  25  22
+STROKE   1  25  26
+STROKE   1  23  30
+STROKE   1  21  32
+STROKE   1  17  34
+STROKE   1  11  34
+STROKE   1   7  32
+STROKE   1   3  28
+STROKE   1   1  22
+STROKE   1   1  18
+STROKE   1   3  12
+STROKE   1   7   9
+STROKE   1  11   7
+STROKE   1  17   7
+STROKE   1  21   9
+STROKE   1  25  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 134   0 LOWER CASE F
+STROKE   0  16  49
+STROKE   1  12  49
+STROKE   1   8  47
+STROKE   1   6  41
+STROKE   1   6   7
+STROKE   0   0  34
+STROKE   1  14  34
+END      0  50   0
+****************************************************************
+SYMBOL   0 135   0 LOWER CASE G
+STROKE   0  23  34
+STROKE   1  23   0
+STROKE   1  21  -6
+STROKE   1  19  -8
+STROKE   1  15 -10
+STROKE   1   9 -10
+STROKE   1   5  -8
+STROKE   0  24  28
+STROKE   1  20  32
+STROKE   1  16  34
+STROKE   1  10  34
+STROKE   1   6  32
+STROKE   1   2  28
+STROKE   1   0  22
+STROKE   1   0  18
+STROKE   1   2  12
+STROKE   1   6   9
+STROKE   1  10   7
+STROKE   1  16   7
+STROKE   1  20   9
+STROKE   1  24  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 136   0 LOWER CASE H
+STROKE   0   0  49
+STROKE   1   0   7
+STROKE   0   0  26
+STROKE   1   6  32
+STROKE   1  10  34
+STROKE   1  16  34
+STROKE   1  20  32
+STROKE   1  22  26
+STROKE   1  22   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 137   0 LOWER CASE I
+STROKE   0   0  49
+STROKE   1   2  47
+STROKE   1   4  49
+STROKE   1   2  51
+STROKE   1   0  49
+STROKE   0   2  34
+STROKE   1   2   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 140   0 LESS THAN OR EQUAL T
+STROKE   0   0   7
+STROKE   1  20   7
+STROKE   0   0   0
+BRANCH   0  76   0
+****************************************************************
+SYMBOL   0 145   0 LOWER CASE J
+STROKE   0   8  49
+STROKE   1  10  47
+STROKE   1  12  49
+STROKE   1  10  51
+STROKE   1   8  49
+STROKE   0  10  34
+STROKE   1  10  -2
+STROKE   1   8  -8
+STROKE   1   4 -10
+STROKE   1   0 -10
+END      0  50   0
+****************************************************************
+SYMBOL   0 146   0 LOWER CASE K
+STROKE   0   0  49
+STROKE   1   0   7
+STROKE   0  21  34
+STROKE   1   0  13
+STROKE   0   8  21
+STROKE   1  22   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 147   0 LOWER CASE L
+STROKE   0   1  49
+STROKE   1   1   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 148   0 LOWER CASE M
+STROKE   0   0  31
+STROKE   1   0   7
+STROKE   0   0  24
+STROKE   1   5  29
+STROKE   1   9  31
+STROKE   1  14  31
+STROKE   1  17  29
+STROKE   1  19  24
+STROKE   1  19   7
+STROKE   0  19  24
+STROKE   1  24  29
+STROKE   1  28  31
+STROKE   1  33  31
+STROKE   1  36  29
+STROKE   1  38  24
+STROKE   1  38   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 149   0 LOWER CASE N
+STROKE   0   0  34
+STROKE   1   0   7
+STROKE   0   0  26
+STROKE   1   6  32
+STROKE   1  10  34
+STROKE   1  16  34
+STROKE   1  20  32
+STROKE   1  22  26
+STROKE   1  22   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 150   0 LOWER CASE O
+STROKE   0  10  34
+STROKE   1   6  32
+STROKE   1   2  28
+STROKE   1   0  22
+STROKE   1   0  18
+STROKE   1   2  12
+STROKE   1   6   9
+STROKE   1  10   7
+STROKE   1  16   7
+STROKE   1  20   9
+STROKE   1  24  12
+STROKE   1  26  18
+STROKE   1  26  22
+STROKE   1  24  28
+STROKE   1  20  32
+STROKE   1  16  34
+STROKE   1  10  34
+END      0  50   0
+****************************************************************
+SYMBOL   0 151   0 LOWER CASE P
+STROKE   0   0  34
+STROKE   1   0 -10
+STROKE   0   0  28
+STROKE   1   4  32
+STROKE   1   8  34
+STROKE   1  14  34
+STROKE   1  18  32
+STROKE   1  22  28
+STROKE   1  24  22
+STROKE   1  24  18
+STROKE   1  22  12
+STROKE   1  18   9
+STROKE   1  14   7
+STROKE   1   8   7
+STROKE   1   4   9
+STROKE   1   0  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 152   0 LOWER CASE Q
+STROKE   0  24  34
+STROKE   1  24 -10
+STROKE   0  24  28
+STROKE   1  20  32
+STROKE   1  16  34
+STROKE   1  10  34
+STROKE   1   6  32
+STROKE   1   2  28
+STROKE   1   0  22
+STROKE   1   0  18
+STROKE   1   2  12
+STROKE   1   6   9
+STROKE   1  10   7
+STROKE   1  16   7
+STROKE   1  20   9
+STROKE   1  24  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 153   0 LOWER CASE R
+STROKE   0   0  34
+STROKE   1   0   7
+STROKE   0   0  22
+STROKE   1   2  28
+STROKE   1   6  32
+STROKE   1  10  34
+STROKE   1  16  34
+END      0  50   0
+****************************************************************
+SYMBOL   0 162   0 LOWER CASE S
+STROKE   0  22  28
+STROKE   1  20  32
+STROKE   1  14  34
+STROKE   1   8  34
+STROKE   1   2  32
+STROKE   1   0  28
+STROKE   1   2  24
+STROKE   1   6  22
+STROKE   1  16  20
+STROKE   1  20  18
+STROKE   1  22  14
+STROKE   1  22  12
+STROKE   1  20   9
+STROKE   1  14   7
+STROKE   1   8   7
+STROKE   1   2   9
+STROKE   1   0  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 163   0 LOWER CASE T
+STROKE   0   7  49
+STROKE   1   7  13
+STROKE   1   9   7
+STROKE   1  13   7
+STROKE   1  17   7
+STROKE   0   0  34
+STROKE   1  14  34
+END      0  50   0
+****************************************************************
+SYMBOL   0 164   0 LOWER CASE U
+STROKE   0   0  34
+STROKE   1   0  15
+STROKE   1   2   9
+STROKE   1   6   7
+STROKE   1  12   7
+STROKE   1  16   9
+STROKE   1  22  15
+STROKE   0  22  34
+STROKE   1  22   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 165   0 LOWER CASE V
+STROKE   0   0  34
+STROKE   1  12   7
+STROKE   1  24  34
+END      0  50   0
+****************************************************************
+SYMBOL   0 166   0 LOWER CASE W
+STROKE   0   0  34
+STROKE   1   8   7
+STROKE   1  16  34
+STROKE   1  24   7
+STROKE   1  32  34
+END      0  50   0
+****************************************************************
+SYMBOL   0 167   0 LOWER CASE X
+STROKE   0   0  34
+STROKE   1  23   7
+STROKE   0  23  34
+STROKE   1   0   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 168   0 LOWER CASE Y
+STROKE   0   0  34
+STROKE   1  12   7
+STROKE   0  24  34
+STROKE   1  12   7
+STROKE   1   8  -3
+STROKE   1   4  -7
+STROKE   1   0  -9
+STROKE   1  -2  -9
+END      0  50   0
+****************************************************************
+SYMBOL   0 169   0 LOWER CASE Z
+STROKE   0   0  34
+STROKE   1  23  34
+STROKE   1   0   7
+STROKE   1  23   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 174   0 GREATER THAN OR EQUA
+STROKE   0   0   7
+STROKE   1  20   7
+STROKE   0   0   0
+BRANCH   0 110   0
+****************************************************************
+SYMBOL   0 190   0 NOT EQUAL SIGN  
+STROKE   0  29  36
+STROKE   1   9   7
+STROKE   0   0   0
+BRANCH   0 126   0
+****************************************************************
+SYMBOL   0 193   0 UPPER CASE A
+STROKE   0  19  49
+STROKE   1   2   7
+STROKE   0  19  49
+STROKE   1  36   7
+STROKE   0   7  19
+STROKE   1  31  19
+END      0  50   0
+****************************************************************
+SYMBOL   0 194   0 UPPER CASE B
+STROKE   0   1  49
+STROKE   1  20  49
+STROKE   1  26  47
+STROKE   1  28  45
+STROKE   1  30  41
+STROKE   1  30  37
+STROKE   1  28  33
+STROKE   1  26  31
+STROKE   1  20  29
+STROKE   0   1  29
+STROKE   1  20  29
+STROKE   1  26  27
+STROKE   1  28  25
+STROKE   1  30  21
+STROKE   1  30  15
+STROKE   1  28  11
+STROKE   1  26   9
+STROKE   1  20   7
+STROKE   1   1   7
+STROKE   0   1  49
+STROKE   1   1   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 195   0 UPPER CASE C
+STROKE   0  31  39
+STROKE   1  29  43
+STROKE   1  25  47
+STROKE   1  21  49
+STROKE   1  13  49
+STROKE   1   9  47
+STROKE   1   5  43
+STROKE   1   3  39
+STROKE   1   1  33
+STROKE   1   1  23
+STROKE   1   3  17
+STROKE   1   5  13
+STROKE   1   9   9
+STROKE   1  13   7
+STROKE   1  21   7
+STROKE   1  25   9
+STROKE   1  29  13
+STROKE   1  31  17
+END      0  50   0
+****************************************************************
+SYMBOL   0 196   0 UPPER CASE D
+STROKE   0   1  49
+STROKE   1   1   7
+STROKE   0   1  49
+STROKE   1  15  49
+STROKE   1  21  47
+STROKE   1  25  43
+STROKE   1  27  39
+STROKE   1  29  33
+STROKE   1  29  23
+STROKE   1  27  17
+STROKE   1  25  13
+STROKE   1  21   9
+STROKE   1  15   7
+STROKE   1   1   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 197   0 UPPER CASE E
+STROKE   0  27  49
+STROKE   1   0  49
+STROKE   1   0   7
+STROKE   1  27   7
+STROKE   0   0  28
+STROKE   1  17  28
+END      0  50   0
+****************************************************************
+SYMBOL   0 198   0 UPPER CASE F
+STROKE   0  27  49
+STROKE   1   0  49
+STROKE   1   0   7
+STROKE   0   0  28
+STROKE   1  17  28
+END      0  50   0
+****************************************************************
+SYMBOL   0 199   0 UPPER CASE G
+STROKE   0  30  39
+STROKE   1  28  43
+STROKE   1  24  47
+STROKE   1  20  49
+STROKE   1  12  49
+STROKE   1   8  47
+STROKE   1   4  43
+STROKE   1   2  39
+STROKE   1   0  33
+STROKE   1   0  23
+STROKE   1   2  17
+STROKE   1   4  13
+STROKE   1   8   9
+STROKE   1  12   7
+STROKE   1  20   7
+STROKE   1  24   9
+STROKE   1  28  13
+STROKE   1  30  17
+STROKE   1  30  23
+STROKE   0  20  23
+STROKE   1  30  23
+END      0  50   0
+****************************************************************
+SYMBOL   0 200   0 UPPER CASE H
+STROKE   0   0  49
+STROKE   1   0   7
+STROKE   0  29  49
+STROKE   1  29   7
+STROKE   0   0  28
+STROKE   1  29  28
+END      0  50   0
+****************************************************************
+SYMBOL   0 201   0 UPPER CASE I
+STROKE   0  19  49
+STROKE   1  19   7
+STROKE   0  12   7
+STROKE   1  26   7
+STROKE   0  26  49
+STROKE   1  12  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 209   0 UPPER CASE J
+STROKE   0  25  49
+STROKE   1  25  17
+STROKE   1  23  11
+STROKE   1  21   9
+STROKE   1  17   7
+STROKE   1  13   7
+STROKE   1   9   9
+STROKE   1   7  11
+STROKE   1   5  17
+STROKE   1   5  21
+END      0  50   0
+****************************************************************
+SYMBOL   0 210   0 UPPER CASE K
+STROKE   0   1  50
+STROKE   1   1   7
+STROKE   0  30  50
+STROKE   1   1  20
+STROKE   0  11  30
+STROKE   1  30   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 211   0 UPPER CASE L
+STROKE   0   8  49
+STROKE   1   8   7
+STROKE   1  33   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 212   0 UPPER CASE M
+STROKE   0   1   7
+STROKE   1   1  49
+STROKE   1  18   7
+STROKE   1  35  49
+STROKE   1  35   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 213   0 UPPER CASE N
+STROKE   0   1   7
+STROKE   1   1  49
+STROKE   1  30   7
+STROKE   1  30  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 214   0 UPPER CASE O
+STROKE   0  13  49
+STROKE   1   9  47
+STROKE   1   5  43
+STROKE   1   3  39
+STROKE   1   1  33
+STROKE   1   1  23
+STROKE   1   3  17
+STROKE   1   5  13
+STROKE   1   9   9
+STROKE   1  13   7
+STROKE   1  21   7
+STROKE   1  25   9
+STROKE   1  29  13
+STROKE   1  31  17
+STROKE   1  33  23
+STROKE   1  33  33
+STROKE   1  31  39
+STROKE   1  29  43
+STROKE   1  25  47
+STROKE   1  21  49
+STROKE   1  13  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 215   0 UPPER CASE P
+STROKE   0   0   7
+STROKE   1   0  49
+STROKE   1  19  49
+STROKE   1  25  47
+STROKE   1  27  45
+STROKE   1  29  41
+STROKE   1  29  35
+STROKE   1  27  31
+STROKE   1  25  29
+STROKE   1  19  27
+STROKE   1   0  27
+END      0  50   0
+****************************************************************
+SYMBOL   0 216   0 UPPER CASE Q
+STROKE   0  13  49
+STROKE   1   9  47
+STROKE   1   5  43
+STROKE   1   3  39
+STROKE   1   1  33
+STROKE   1   1  23
+STROKE   1   3  17
+STROKE   1   5  13
+STROKE   1   9   9
+STROKE   1  13   7
+STROKE   1  21   7
+STROKE   1  25   9
+STROKE   1  29  13
+STROKE   1  31  17
+STROKE   1  33  23
+STROKE   1  33  33
+STROKE   1  31  39
+STROKE   1  29  43
+STROKE   1  25  47
+STROKE   1  21  49
+STROKE   1  13  49
+STROKE   0  19  13
+STROKE   1  31   1
+END      0  50   0
+****************************************************************
+SYMBOL   0 217   0 UPPER CASE R
+STROKE   0   1   7
+STROKE   1   1  49
+STROKE   1  20  49
+STROKE   1  26  47
+STROKE   1  28  45
+STROKE   1  30  41
+STROKE   1  30  37
+STROKE   1  28  33
+STROKE   1  26  31
+STROKE   1  20  29
+STROKE   1   1  29
+STROKE   0  15  29
+STROKE   1  30   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 226   0 UPPER CASE S
+STROKE   0  29  43
+STROKE   1  25  47
+STROKE   1  19  49
+STROKE   1  11  49
+STROKE   1   5  47
+STROKE   1   1  43
+STROKE   1   1  39
+STROKE   1   3  35
+STROKE   1   5  33
+STROKE   1   9  31
+STROKE   1  21  27
+STROKE   1  25  25
+STROKE   1  27  23
+STROKE   1  29  19
+STROKE   1  29  13
+STROKE   1  25   9
+STROKE   1  19   7
+STROKE   1  11   7
+STROKE   1   5   9
+STROKE   1   1  13
+END      0  50   0
+****************************************************************
+SYMBOL   0 227   0 UPPER CASE T
+STROKE   0  17  49
+STROKE   1  17   7
+STROKE   0   3  49
+STROKE   1  32  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 228   0 UPPER CASE U
+STROKE   0   0  49
+STROKE   1   0  19
+STROKE   1   2  13
+STROKE   1   6   9
+STROKE   1  12   7
+STROKE   1  16   7
+STROKE   1  22   9
+STROKE   1  26  13
+STROKE   1  28  19
+STROKE   1  28  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 229   0 UPPER CASE V
+STROKE   0   1  49
+STROKE   1  18   7
+STROKE   1  35  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 230   0 UPPER CASE W
+STROKE   0   0  49
+STROKE   1  10   7
+STROKE   1  20  49
+STROKE   1  30   7
+STROKE   1  40  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 231   0 UPPER CASE X
+STROKE   0   1  49
+STROKE   1  30   7
+STROKE   0  30  49
+STROKE   1   1   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 232   0 UPPER CASE Y
+STROKE   0   0  49
+STROKE   1  17  28
+STROKE   1  17   7
+STROKE   0  34  49
+STROKE   1  17  28
+END      0  50   0
+****************************************************************
+SYMBOL   0 233   0 UPPER CASE Z
+STROKE   0   1  49
+STROKE   1  30  49
+STROKE   1   1   7
+STROKE   1  30   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 240   0 NUMERAL 0   
+STROKE   0  12  49
+STROKE   1   6  47
+STROKE   1   2  41
+STROKE   1   0  31
+STROKE   1   0  25
+STROKE   1   2  15
+STROKE   1   6   9
+STROKE   1  12   7
+STROKE   1  16   7
+STROKE   1  22   9
+STROKE   1  26  15
+STROKE   1  28  25
+STROKE   1  28  31
+STROKE   1  26  41
+STROKE   1  22  47
+STROKE   1  16  49
+STROKE   1  12  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 241   0 NUMERAL 1   
+STROKE   0   0  41
+STROKE   1   4  43
+STROKE   1  10  49
+STROKE   1  10   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 242   0 NUMERAL 2   
+STROKE   0   3  39
+STROKE   1   3  41
+STROKE   1   5  45
+STROKE   1   7  47
+STROKE   1  11  49
+STROKE   1  19  49
+STROKE   1  23  47
+STROKE   1  25  45
+STROKE   1  27  41
+STROKE   1  27  37
+STROKE   1  25  33
+STROKE   1  21  27
+STROKE   1   0   7
+STROKE   1  29   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 243   0 NUMERAL 3   
+STROKE   0   3  49
+STROKE   1  26  49
+STROKE   1  14  32
+STROKE   1  20  32
+STROKE   1  24  30
+STROKE   1  26  28
+STROKE   1  28  22
+STROKE   1  28  18
+STROKE   1  26  12
+STROKE   1  22   9
+STROKE   1  16   7
+STROKE   1  10   7
+STROKE   1   4   9
+STROKE   1   2  11
+STROKE   1   0  14
+END      0  50   0
+****************************************************************
+SYMBOL   0 244   0 NUMERAL 4   
+STROKE   0  21  49
+STROKE   1   0  19
+STROKE   1  32  19
+STROKE   0  22  49
+STROKE   1  22   7
+END      0  50   0
+****************************************************************
+SYMBOL   0 245   0 NUMERAL 5   
+STROKE   0  25  49
+STROKE   1   4  49
+STROKE   1   2  30
+STROKE   1   4  32
+STROKE   1  10  34
+STROKE   1  16  34
+STROKE   1  22  32
+STROKE   1  26  28
+STROKE   1  28  22
+STROKE   1  28  18
+STROKE   1  26  12
+STROKE   1  22   9
+STROKE   1  16   7
+STROKE   1  10   7
+STROKE   1   4   9
+STROKE   1   2  11
+STROKE   1   0  14
+END      0  50   0
+****************************************************************
+SYMBOL   0 246   0 NUMERAL 6   
+STROKE   0  24  43
+STROKE   1  22  47
+STROKE   1  16  49
+STROKE   1  12  49
+STROKE   1   6  47
+STROKE   1   2  41
+STROKE   1   0  31
+STROKE   1   0  21
+STROKE   1   2  13
+STROKE   1   6   9
+STROKE   1  12   7
+STROKE   1  14   7
+STROKE   1  20   9
+STROKE   1  24  13
+STROKE   1  26  19
+STROKE   1  26  21
+STROKE   1  24  27
+STROKE   1  20  31
+STROKE   1  14  33
+STROKE   1  12  33
+STROKE   1   6  31
+STROKE   1   2  27
+STROKE   1   0  21
+END      0  50   0
+****************************************************************
+SYMBOL   0 247   0 NUMERAL 7   
+STROKE   0  29  49
+STROKE   1   8   7
+STROKE   0   0  49
+STROKE   1  29  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 248   0 NUMERAL 8   
+STROKE   0  10  49
+STROKE   1   4  47
+STROKE   1   2  43
+STROKE   1   2  39
+STROKE   1   4  35
+STROKE   1   8  33
+STROKE   1  16  31
+STROKE   1  22  29
+STROKE   1  26  25
+STROKE   1  28  21
+STROKE   1  28  15
+STROKE   1  26  11
+STROKE   1  24   9
+STROKE   1  18   7
+STROKE   1  10   7
+STROKE   1   4   9
+STROKE   1   2  11
+STROKE   1   0  15
+STROKE   1   0  21
+STROKE   1   2  25
+STROKE   1   6  29
+STROKE   1  12  31
+STROKE   1  20  33
+STROKE   1  24  35
+STROKE   1  26  39
+STROKE   1  26  43
+STROKE   1  24  47
+STROKE   1  18  49
+STROKE   1  10  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 249   0 NUMERAL 9   
+STROKE   0  26  34
+STROKE   1  24  28
+STROKE   1  20  24
+STROKE   1  14  22
+STROKE   1  12  22
+STROKE   1   6  24
+STROKE   1   2  28
+STROKE   1   0  34
+STROKE   1   0  36
+STROKE   1   2  42
+STROKE   1   6  46
+STROKE   1  12  48
+STROKE   1  14  48
+STROKE   1  20  46
+STROKE   1  24  42
+STROKE   1  26  34
+STROKE   1  26  24
+STROKE   1  24  14
+STROKE   1  20   9
+STROKE   1  14   7
+STROKE   1  10   7
+STROKE   1   4   9
+STROKE   1   2  12
+END      0  50   0
+****************************************************************
+SYMBOL   0 251   0 SUBSTATION BREAKER  
+STROKE   0  13   0
+STROKE   1  13  50
+STROKE   1  37  50
+STROKE   1  37   0
+STROKE   1  13   0
+END      0  50   0
+****************************************************************
+SYMBOL   0 252   0 BREAKER SYMBOL PROGR
+STROKE   0  13   0
+STROKE   1  13  50
+STROKE   1  14   0
+STROKE   1  15  50
+STROKE   1  16   0
+STROKE   1  17  50
+STROKE   1  18   0
+STROKE   1  19  50
+STROKE   1  20   0
+STROKE   1  21  50
+STROKE   1  22   0
+STROKE   1  23  50
+STROKE   1  24   0
+STROKE   1  25  50
+STROKE   1  26   0
+STROKE   1  27  50
+STROKE   1  28   0
+STROKE   1  29  50
+STROKE   1  30   0
+STROKE   1  31  50
+STROKE   1  32   0
+STROKE   1  33  50
+STROKE   1  34   0
+STROKE   1  35  50
+STROKE   1  36   0
+STROKE   1  37  50
+STROKE   1  37   0
+END      0  50   0
+****************************************************************
+SYMBOL   0 254   0 BREAKER NORMALLY OPE
+STROKE   0  13   0
+STROKE   1  37  50
+STROKE   1  37  49
+STROKE   1  14   0
+STROKE   1  15   0
+STROKE   1  37  48
+STROKE   1  37  47
+STROKE   1  16   0
+STROKE   1  17   0
+STROKE   1  37  46
+STROKE   1  37  45
+STROKE   1  18   0
+STROKE   1  19   0
+STROKE   1  37  44
+STROKE   1  37  43
+STROKE   1  20   0
+STROKE   1  21   0
+STROKE   1  37  42
+STROKE   1  37  41
+STROKE   1  22   0
+STROKE   1  23   0
+STROKE   1  37  40
+STROKE   1  37  39
+STROKE   1  24   0
+STROKE   1  25   0
+STROKE   1  37  38
+STROKE   1  37  37
+STROKE   1  26   0
+STROKE   1  27   0
+STROKE   1  37  36
+STROKE   1  37  35
+STROKE   1  28   0
+STROKE   1  29   0
+STROKE   1  37  34
+STROKE   1  37  33
+STROKE   1  30   0
+STROKE   1  31   0
+STROKE   1  37  32
+STROKE   1  37  31
+STROKE   1  32   0
+STROKE   1  33   0
+STROKE   1  37  30
+STROKE   1  37  29
+STROKE   1  34   0
+STROKE   1  35   0
+STROKE   1  37  28
+STROKE   1  37  27
+STROKE   1  36   0
+STROKE   1  37   0
+STROKE   1  37  50
+STROKE   0   0   0
+BRANCH   0   2   0
+****************************************************************
+SYMBOL   0 255   0 DUCT SYMBOL 
+STROKE   0  20   5
+STROKE   1   5   5
+STROKE   1   5  20
+STROKE   0   5  30
+STROKE   1   5  45
+STROKE   1  20  45
+STROKE   0  30  45
+STROKE   1  45  45
+STROKE   1  45  30
+STROKE   0  45  20
+STROKE   1  45   5
+STROKE   1  30   5
+END      0  50   0
+****************************************************************
+SYMBOL   0   1   0  CIRCLE 
+STROKE   0  23   0
+STROKE   1  18   1
+STROKE   1  15   2
+STROKE   1  10   5
+STROKE   1   5  10
+STROKE   1   2  15
+STROKE   1   1  18
+STROKE   1   0  23
+STROKE   1   0  27
+STROKE   1   1  32
+STROKE   1   2  35
+STROKE   1   5  40
+STROKE   1  10  45
+STROKE   1  15  48
+STROKE   1  18  49
+STROKE   1  23  50
+STROKE   1  27  50
+STROKE   1  32  49
+STROKE   1  35  48
+STROKE   1  40  45
+STROKE   1  45  40
+STROKE   1  48  35
+STROKE   1  49  32
+STROKE   1  50  27
+STROKE   1  50  23
+STROKE   1  49  18
+STROKE   1  48  15
+STROKE   1  45  10
+STROKE   1  40   5
+STROKE   1  35   2
+STROKE   1  32   1
+STROKE   1  27   0
+STROKE   1  23   0
+END      0  50   0
+****************************************************************
+SYMBOL   0   2   0 ISOSCELES TRIANGLE  
+STROKE   0   0   0
+STROKE   1  25  50
+STROKE   1  50   0
+STROKE   1   0   0
+END      0  50   0
+****************************************************************
+SYMBOL   0   3   0 RIGHT TRIANGLE  
+STROKE   0   0   0
+STROKE   1  50  50
+STROKE   1  50   0
+STROKE   1   0   0
+END      0  50   0
+****************************************************************
+SYMBOL   0   4   0 SQUARE  
+STROKE   0   0   0
+STROKE   1   0  50
+STROKE   1  50  50
+STROKE   1  50   0
+STROKE   1   0   0
+END      0  50   0
+****************************************************************
+SYMBOL   0   5   0 ARROW HEAD  
+STROKE   0   0   0
+STROKE   1  25  50
+END      1  50   0
+****************************************************************
+SYMBOL   0   6   0 FUSE
+STROKE   0   0  25
+STROKE   1   1  29
+STROKE   1   3  32
+STROKE   1   6  35
+STROKE   1   9  37
+STROKE   1  12  38
+STROKE   1  15  38
+STROKE   1  18  37
+STROKE   1  21  35
+STROKE   1  24  32
+STROKE   1  26  29
+STROKE   1  27  21
+STROKE   1  29  18
+STROKE   1  32  15
+STROKE   1  35  13
+STROKE   1  38  12
+STROKE   1  41  12
+STROKE   1  44  13
+STROKE   1  47  15
+STROKE   1  50  18
+STROKE   1  52  21
+STROKE   1  53  25
+END      0  50   0
+****************************************************************
+SYMBOL   0   7   0 CIRCLE, HALF SHADED 
+STROKE   0   0  25
+STROKE   1   1  18
+STROKE   1   2  25
+STROKE   1   3  13
+STROKE   1   4  25
+STROKE   1   5  10
+STROKE   1   6  25
+STROKE   1   7   8
+STROKE   1   8  25
+STROKE   1   9   6
+STROKE   1  10  25
+STROKE   1  11   4
+STROKE   1  12  25
+STROKE   1  13   3
+STROKE   1  14  25
+STROKE   1  15   2
+STROKE   1  16  25
+STROKE   1  17   1
+STROKE   1  18  25
+STROKE   1  19   1
+STROKE   1  20  25
+STROKE   1  21   1
+STROKE   1  22  25
+STROKE   1  23   0
+STROKE   1  24  25
+STROKE   1  25   0
+STROKE   1  26  25
+STROKE   1  27  50
+STROKE   1  28  25
+STROKE   1  29  50
+STROKE   1  30  25
+STROKE   1  31  49
+STROKE   1  32  25
+STROKE   1  33  49
+STROKE   1  34  25
+STROKE   1  35  48
+STROKE   1  36  25
+STROKE   1  37  47
+STROKE   1  38  25
+STROKE   1  39  45
+STROKE   1  40  25
+STROKE   1  41  44
+STROKE   1  42  25
+STROKE   1  43  42
+STROKE   1  44  25
+STROKE   1  45  40
+STROKE   1  46  25
+STROKE   1  47  37
+STROKE   1  48  25
+STROKE   1  49  31
+STROKE   1  50  25
+STROKE   1   0  25
+STROKE   0   0   0
+BRANCH   0   1   0
+****************************************************************
+SYMBOL   0   8   0 SEMI-CIRCLE 
+STROKE   0  23   0
+STROKE   1  18   1
+STROKE   1  15   2
+STROKE   1  10   5
+STROKE   1   5  10
+STROKE   1   2  15
+STROKE   1   1  18
+STROKE   1   0  23
+STROKE   1   0  25
+STROKE   1  50  25
+STROKE   1  50  23
+STROKE   1  49  18
+STROKE   1  48  15
+STROKE   1  45  10
+STROKE   1  40   5
+STROKE   1  35   2
+STROKE   1  32   1
+STROKE   1  28   0
+STROKE   0  23   0
+STROKE   1  28   0
+END      0  50   0
+****************************************************************
+SYMBOL   0   9   0 HEXAGON 
+STROKE   0  12   3
+STROKE   1   0  25
+STROKE   1  12  47
+STROKE   1  36  47
+STROKE   1  48  25
+STROKE   1  36   3
+STROKE   1  12   3
+END      0  50   0
+****************************************************************
+SYMBOL   0  10   0 VAULT   
+STROKE   0  13   9
+STROKE   1   0  17
+STROKE   1   0  33
+STROKE   1  13  41
+STROKE   1  37  41
+STROKE   1  50  33
+STROKE   1  50  17
+STROKE   1  37   9
+STROKE   1  13   9
+END      0  50   0
+****************************************************************
+SYMBOL   0  11   0 REGULAR, 2 TURN 
+STROKE   0  20   0
+STROKE   1  35  50
+STROKE   1  37  44
+STROKE   0  30  46
+STROKE   1  35  50
+STROKE   0  14  50
+STROKE   1  35  37
+STROKE   1  14  25
+STROKE   1  35  13
+STROKE   1  14   0
+END      0  50   0
+****************************************************************
+SYMBOL   0  12   0 REGULAR, 4 TURN 
+STROKE   0  20   0
+STROKE   1  30   6
+STROKE   1  20  12
+STROKE   1  30  19
+STROKE   1  20  25
+STROKE   1  30  31
+STROKE   1  20  37
+STROKE   1  30  44
+STROKE   1  20  50
+END      0  50   0
+****************************************************************
+SYMBOL   0  13   0 FAULT INDICATOR 
+STROKE   0   9   8
+STROKE   1   9   7
+STROKE   1  10   4
+STROKE   1  13   1
+STROKE   1  16   0
+STROKE   1  18   0
+STROKE   1  21   1
+STROKE   1  24   4
+STROKE   1  25   7
+STROKE   1  25  37
+STROKE   1  33  37
+STROKE   1  25  50
+STROKE   1  17  37
+STROKE   1  25  37
+END      0  50   0
+****************************************************************
+SYMBOL   0  14   0 1PHASE FOR VAULT
+STROKE   0   5  14
+STROKE   1  25  41
+STROKE   1  25   9
+END      0  50   0
+****************************************************************
+SYMBOL   0  15   0 3PHASE FOR VAULT
+STROKE   0   5  14
+STROKE   1  25  41
+STROKE   1  25   9
+STROKE   1   5  36
+END      0  50   0
+****************************************************************
+SYMBOL   0  16   0 1PHASE SUBSURF  
+STROKE   0   7  13
+STROKE   1  25  47
+STROKE   1  25   3
+END      0  50   0
+****************************************************************
+SYMBOL   0  17   0 3PHASE SUBSURF  
+STROKE   0   7  13
+STROKE   1  25  47
+STROKE   1  25   3
+STROKE   1   7  37
+END      0  50   0
+****************************************************************
+SYMBOL   0  18   0 VALVE PART  
+STROKE   0   8  25
+STROKE   1   9  30
+STROKE   1  10  33
+STROKE   1  12  36
+STROKE   1  14  38
+STROKE   1  17  40
+STROKE   1  19  42
+STROKE   1  20  45
+STROKE   1  20  50
+STROKE   0  30  50
+STROKE   1  30  45
+STROKE   1  31  42
+STROKE   1  33  40
+STROKE   1  36  38
+STROKE   1  38  36
+STROKE   1  40  33
+STROKE   1  41  30
+STROKE   1  42  25
+END      0  50   0
+****************************************************************
+SYMBOL   0  19   0 INSULATOR   
+STROKE   0  12  10
+STROKE   1  12  40
+STROKE   1  20  40
+STROKE   1  20  10
+STROKE   1  12  10
+STROKE   1  14  40
+STROKE   1  16  10
+STROKE   1  18  40
+STROKE   1  20  10
+STROKE   0  30  10
+STROKE   1  30  40
+STROKE   1  38  40
+STROKE   1  38  10
+STROKE   1  30  10
+STROKE   1  32  40
+STROKE   1  34  10
+STROKE   1  36  40
+STROKE   1  37  10
+END      0  50   0
+****************************************************************
+SYMBOL   0  20   0 GAS THING   
+STROKE   0   5   5
+STROKE   1   5  50
+STROKE   1   7  50
+STROKE   1   7   5
+STROKE   1   5   5
+STROKE   0  15   5
+STROKE   1  15  50
+STROKE   1  17  50
+STROKE   1  17   7
+STROKE   1  48   7
+STROKE   1  48   5
+STROKE   1  15   5
+END      0  50   0
+****************************************************************
+SYMBOL   0  21   0 NORTH POINTER   
+STROKE   0  22   0
+STROKE   1  22  12
+STROKE   1  25  14
+STROKE   1  28  12
+STROKE   1  28   0
+STROKE   1  25   2
+STROKE   1  22   0
+STROKE   0  25  14
+STROKE   1  25  42
+STROKE   1  20  40
+STROKE   1  25  50
+STROKE   1  30  40
+STROKE   1  25  42
+STROKE   0  28  30
+STROKE   1  28  20
+STROKE   1  22  30
+STROKE   1  22  20
+END      0  50   0
+****************************************************************
+SYMBOL   0  22   0 EQUILATERAL TRIANGLE
+STROKE   0   3  13
+STROKE   1  25  50
+STROKE   1  47  13
+STROKE   1   3  13
+END      0  50   0
+****************************************************************
+SYMBOL   0  23   0 SHADED EQUI. TRIANGL
+STROKE   0   3  13
+STROKE   1  25  50
+STROKE   1  47  13
+STROKE   1   3  13
+STROKE   0   7  15
+STROKE   1  25  46
+STROKE   1  43  15
+STROKE   1   7  15
+STROKE   0  11  17
+STROKE   1  25  42
+STROKE   1  39  17
+STROKE   1  11  17
+STROKE   0  15  19
+STROKE   1  25  38
+STROKE   1  35  19
+STROKE   1  15  19
+STROKE   0  19  21
+STROKE   1  25  34
+STROKE   1  31  21
+STROKE   1  19  21
+STROKE   0  23  23
+STROKE   1  25  30
+STROKE   1  27  23
+STROKE   1  23  23
+END      0  50   0
+****************************************************************
+SYMBOL   0  24   0 GROUND SYMBOL   
+STROKE   0  25  25
+STROKE   1  25  50
+STROKE   0   0  25
+STROKE   1  50  25
+STROKE   0  40  15
+STROKE   1  10  15
+STROKE   0  20   5
+STROKE   1  30   5
+END      0  50   0
+****************************************************************
+SYMBOL   0  25   0 SHADED CIRCLE   
+STROKE   0   1  18
+STROKE   1   1  32
+STROKE   1   4  12
+STROKE   1   4  38
+STROKE   1   7   8
+STROKE   1   7  42
+STROKE   1  10   5
+STROKE   1  10  45
+STROKE   1  13   3
+STROKE   1  13  47
+STROKE   1  16   2
+STROKE   1  16  48
+STROKE   1  19   1
+STROKE   1  19  49
+STROKE   1  22   0
+STROKE   1  22  50
+STROKE   1  25   0
+STROKE   1  25  50
+STROKE   1  28   0
+STROKE   1  28  50
+STROKE   1  31   1
+STROKE   1  31  49
+STROKE   1  34   2
+STROKE   1  34  48
+STROKE   1  37   3
+STROKE   1  37  47
+STROKE   1  40   5
+STROKE   1  40  45
+STROKE   1  43   8
+STROKE   1  43  42
+STROKE   1  46  12
+STROKE   1  46  38
+STROKE   1  49  18
+STROKE   1  49  32
+STROKE   0   0   0
+BRANCH   0   1   0
+****************************************************************
+SYMBOL   0  26   0 SHADED SEMI-CIRCLE  
+STROKE   0   1  19
+STROKE   1   1  25
+STROKE   1   5  10
+STROKE   1   5  25
+STROKE   1   9   6
+STROKE   1   9  25
+STROKE   1  13   3
+STROKE   1  13  25
+STROKE   1  17   2
+STROKE   1  17  25
+STROKE   1  21   0
+STROKE   1  21  25
+STROKE   1  25   0
+STROKE   1  25  25
+STROKE   1  29   0
+STROKE   1  29  25
+STROKE   1  33   2
+STROKE   1  33  25
+STROKE   1  37   3
+STROKE   1  37  25
+STROKE   1  41   6
+STROKE   1  41  25
+STROKE   1  45  10
+STROKE   1  45  25
+STROKE   1  49  19
+STROKE   1  49  25
+STROKE   0   0   0
+BRANCH   0   8   0
+****************************************************************
+SYMBOL   0  27   0 ELLIPSE 48% 
+STROKE   0  25  13
+STROKE   1  22  13
+STROKE   1  15  14
+STROKE   1  11  15
+STROKE   1   8  16
+STROKE   1   6  17
+STROKE   1   3  19
+STROKE   1   2  20
+STROKE   1   1  22
+STROKE   1   0  25
+STROKE   1   1  28
+STROKE   1   2  30
+STROKE   1   3  31
+STROKE   1   6  33
+STROKE   1   8  34
+STROKE   1  11  35
+STROKE   1  15  36
+STROKE   1  22  37
+STROKE   1  28  37
+STROKE   1  35  36
+STROKE   1  39  35
+STROKE   1  42  34
+STROKE   1  44  33
+STROKE   1  47  31
+STROKE   1  48  30
+STROKE   1  49  28
+STROKE   1  50  25
+STROKE   1  49  22
+STROKE   1  48  20
+STROKE   1  47  19
+STROKE   1  44  17
+STROKE   1  42  16
+STROKE   1  39  15
+STROKE   1  35  14
+STROKE   1  28  13
+STROKE   1  25  13
+END      0  50   0
+****************************************************************
+SYMBOL   0  28   0 FULL SIZE X 
+STROKE   0   0   0
+STROKE   1  50  50
+STROKE   0   0  50
+STROKE   1  50   0
+END      0  50   0
+****************************************************************
+SYMBOL   0  29   0 TRANSFORMER, 3PHASE,
+STROKE   0   0   0
+STROKE   1  18  18
+STROKE   0  18  32
+STROKE   1   0  50
+STROKE   0  50  50
+STROKE   1  32  32
+STROKE   0  32  18
+STROKE   1  50   0
+STROKE   0   0   0
+END      0  50   0
+****************************************************************
+SYMBOL   0  30   0 TRANSFORMER, 1PHASE,
+STROKE   0   0  14
+STROKE   1   0  15
+STROKE   1  35  50
+STROKE   1  36  50
+STROKE   1  36  14
+STROKE   1   0  14
+END      0  50   0
+****************************************************************
+SYMBOL   0  31   0 FENCED ENCLOSURE (SQ
+STROKE   0   0   5
+STROKE   1   5   0
+STROKE   0   5   5
+STROKE   1   0   0
+STROKE   0   0  15
+STROKE   1   5  10
+STROKE   0   5  15
+STROKE   1   0  10
+STROKE   0   0  25
+STROKE   1   5  20
+STROKE   0   5  25
+STROKE   1   0  20
+STROKE   0   0  35
+STROKE   1   5  30
+STROKE   0   5  35
+STROKE   1   0  30
+STROKE   0  15  35
+STROKE   1  20  30
+STROKE   0  20  35
+STROKE   1  15  30
+STROKE   0  30  35
+STROKE   1  35  30
+STROKE   0  35  35
+STROKE   1  30  30
+STROKE   0  45  35
+STROKE   1  50  30
+STROKE   0  50  35
+STROKE   1  45  30
+STROKE   0  45  20
+STROKE   1  50  15
+STROKE   0  50  20
+STROKE   1  45  15
+STROKE   0  45   5
+STROKE   1  50   0
+STROKE   0  50   5
+STROKE   1  45   0
+STROKE   0  30   5
+STROKE   1  35   0
+STROKE   0  35   5
+STROKE   1  30   0
+STROKE   0  15   5
+STROKE   1  20   0
+STROKE   0  20   5
+STROKE   1  15   0
+END      0  50   0
+****************************************************************
+SYMBOL   0  32   0 GAS METER   
+STROKE   0  25   0
+STROKE   1  25  56
+STROKE   0  13  50
+STROKE   1  13   6
+STROKE   0  37   6
+STROKE   1  37  50
+STROKE   0   0   3
+BRANCH   0   1   0
+****************************************************************
+SYMBOL   0  33   0 ARROWHEAD   
+STROKE   0  36  27
+STROKE   1  30  28
+STROKE   1  26  29
+STROKE   1  22  30
+STROKE   1  18  31
+STROKE   1  15  32
+STROKE   1   9  34
+STROKE   1   4  36
+STROKE   1   0  38
+STROKE   1   0  16
+STROKE   0   0  27
+STROKE   0  36  27
+STROKE   0   0  27
+STROKE   0  36  27
+STROKE   1   0  27
+STROKE   0  36  27
+STROKE   0  30  26
+STROKE   0  36  27
+STROKE   1  30  26
+STROKE   1  22  24
+STROKE   1  18  23
+STROKE   1  18  23
+STROKE   1   8  20
+STROKE   1   3  18
+STROKE   1   0  16
+STROKE   0   1  37
+STROKE   0   1  37
+STROKE   1   1  17
+STROKE   1   3  36
+STROKE   1   3  18
+STROKE   1   5  35
+STROKE   1   5  19
+STROKE   1   7  34
+STROKE   1   7  20
+STROKE   1   9  34
+STROKE   1   9  21
+STROKE   1  11  33
+STROKE   1  11  21
+STROKE   1  13  32
+STROKE   1  13  22
+STROKE   0  13  22
+STROKE   1  15  32
+STROKE   1  15  23
+STROKE   1  17  31
+STROKE   1  17  23
+STROKE   1  19  30
+STROKE   1  19  23
+STROKE   1  21  30
+STROKE   1  21  24
+STROKE   1  23  29
+STROKE   1  23  25
+STROKE   1  25  29
+STROKE   1  25  25
+STROKE   1  27  28
+STROKE   1  27  26
+STROKE   1  29  28
+STROKE   1  29  26
+STROKE   1  30  28
+STROKE   1  32  27
+STROKE   0  33  27
+STROKE   1  28  26
+STROKE   0  28  28
+STROKE   1  22  29
+END      0  50  27
+****************************************************************
+SYMBOL   0  34   0 VALVE   
+STROKE   0   0  18
+STROKE   1   0  37
+STROKE   1  36  18
+STROKE   1  36  37
+STROKE   1   0  18
+END      0  50   0
+****************************************************************
+SYMBOL   0  35   0 SEPARATOR   
+STROKE   0   7   0
+STROKE   1  29   0
+STROKE   1  29   1
+STROKE   1  28   3
+STROKE   1  26   5
+STROKE   1  26  43
+STROKE   1  25  44
+STROKE   1  23  45
+STROKE   1  20  46
+STROKE   1  18  46
+STROKE   1  16  46
+STROKE   1  13  45
+STROKE   1  11  44
+STROKE   1  10  43
+STROKE   1  10   5
+STROKE   1   8   3
+STROKE   1   7   1
+STROKE   1   7   0
+END      0  50   0
+****************************************************************
+SYMBOL   0  36   0 DEHYDRATOR  
+STROKE   0  13   0
+STROKE   1  23   0
+STROKE   0  23   0
+STROKE   1  23  33
+STROKE   0  21  35
+STROKE   1  21  44
+STROKE   1  21  44
+STROKE   1  19  45
+STROKE   0  15  44
+STROKE   1  15  35
+STROKE   1  13  33
+STROKE   1  13   0
+STROKE   0  19  45
+STROKE   1  17  45
+STROKE   1  15  44
+STROKE   1  15  44
+STROKE   0  23  33
+STROKE   1  21  35
+END      0  50   0
+****************************************************************
+SYMBOL   0  41   0 UNINSULATED VALVE   
+STROKE   0   0   9
+STROKE   1   0  39
+STROKE   1  50   9
+STROKE   1  50  39
+STROKE   1   0   9
+END      0  50   0
+****************************************************************
+SYMBOL   0  42   0 INSULATED VALVE 
+STROKE   0  50   9
+STROKE   1   0  39
+STROKE   1  50   9
+STROKE   1  50  39
+STROKE   1  50   9
+STROKE   1  50  39
+STROKE   1  50  39
+STROKE   1  50  39
+STROKE   1   0   9
+STROKE   1   0  39
+STROKE   0  16  46
+STROKE   1  16  29
+STROKE   0  16  19
+STROKE   1  16   2
+STROKE   1  34   2
+STROKE   1  34  19
+STROKE   0  34  29
+STROKE   1  34  46
+STROKE   1  16  46
+END      0  50   0
+****************************************************************
+SYMBOL   0  50   0 CROSSING
+STROKE   0  36   0
+STROKE   1  50   0
+STROKE   0  43   0
+STROKE   1  43  58
+STROKE   1  30  58
+STROKE   1  30  52
+STROKE   1  56  52
+STROKE   1  56  58
+STROKE   1  43  58
+STROKE   0  30  55
+STROKE   1  56  55
+STROKE   0  30  47
+STROKE   1  40  47
+STROKE   1  30  33
+STROKE   1  40  33
+STROKE   1  30  47
+STROKE   0  46  47
+STROKE   1  56  47
+STROKE   1  46  33
+STROKE   1  56  33
+STROKE   1  46  47
+STROKE   0  51  40
+STROKE   1  35  40
+STROKE   0   0  26
+STROKE   1  30  30
+STROKE   1  40  30
+STROKE   1  40  22
+STROKE   1  30  22
+STROKE   1   0  26
+STROKE   0  30  30
+STROKE   1  30  22
+STROKE   1  40  30
+STROKE   0  40  22
+STROKE   1  30  30
+STROKE   0  60  26
+STROKE   1  40  29
+STROKE   0  40  26
+STROKE   1  43  26
+STROKE   0  40  23
+STROKE   1  60  26
+STROKE   0  43  58
+STROKE   1  45  59
+STROKE   1  45  61
+STROKE   1  43  62
+STROKE   1  41  61
+STROKE   1  41  59
+STROKE   1  43  58
+END      0  50   0
+****************************************************************
+SYMBOL   0  51   0 MILEPOST
+STROKE   0  30   0
+STROKE   1  60  30
+STROKE   1  30  60
+STROKE   1   0  30
+STROKE   1  30   0
+STROKE   0  30  15
+STROKE   1  45  30
+STROKE   1  30  45
+STROKE   1  15  30
+STROKE   1  30  15
+END      0  50   0
+****************************************************************
+SYMBOL   0  52   0 PIPELINE
+STROKE   0  21  28
+STROKE   1  21  22
+STROKE   0  22  22
+STROKE   1  22  28
+STROKE   0  23  28
+STROKE   1  23  22
+STROKE   0  24  22
+STROKE   1  24  28
+STROKE   0  25  28
+STROKE   1  25  22
+STROKE   0  26  22
+STROKE   1  26  28
+STROKE   0  27  28
+STROKE   1  27  22
+STROKE   0   0  33
+STROKE   0   0  34
+STROKE   0   0  34
+STROKE   0  21  28
+STROKE   1  21  31
+STROKE   0  22  28
+STROKE   1  22  31
+STROKE   0  23  28
+STROKE   1  23  31
+STROKE   0  24  28
+STROKE   1  24  31
+STROKE   0  25  28
+STROKE   1  25  31
+STROKE   0  26  28
+STROKE   1  26  31
+STROKE   0  27  28
+STROKE   1  27  31
+STROKE   0   0   0
+BRANCH   0  53   0
+****************************************************************
+SYMBOL   0  53   0 ROAD
+STROKE   0   0  22
+STROKE   1  50  22
+STROKE   0  50  31
+STROKE   1   0  31
+END      0  50   0
+****************************************************************
+SYMBOL   0  54   0 SEISMIC 
+STROKE   0   0  25
+STROKE   1  50  25
+STROKE   0  28  24
+STROKE   0  22  23
+STROKE   0   0  26
+STROKE   1  50  26
+STROKE   0  50  24
+STROKE   1   0  24
+STROKE   0  23  30
+STROKE   1  27  30
+STROKE   0  27  20
+STROKE   1  23  20
+STROKE   1  21  23
+STROKE   1  21  27
+STROKE   1  23  30
+STROKE   1  27  30
+STROKE   1  29  27
+STROKE   1  29  23
+STROKE   1  27  20
+STROKE   0  27  30
+END      0  50   0
+****************************************************************
+SYMBOL   0  55   0 RAILROAD
+STROKE   0   0  25
+STROKE   1  50  25
+STROKE   0  25  21
+STROKE   1  25  29
+STROKE   0  25  29
+STROKE   1  25  30
+STROKE   1  25  20
+STROKE   0   0  26
+STROKE   1  50  26
+STROKE   0  50  24
+STROKE   1   0  24
+STROKE   0  24  20
+STROKE   1  24  30
+STROKE   0  26  30
+STROKE   1  26  20
+STROKE   0  24  30
+STROKE   1  24  32
+STROKE   0  25  32
+STROKE   1  25  30
+STROKE   0  26  30
+STROKE   1  26  32
+STROKE   0  26  20
+STROKE   1  26  18
+STROKE   0  25  18
+STROKE   1  25  20
+STROKE   0  24  20
+STROKE   1  24  18
+END      0  50   0
+****************************************************************
+SYMBOL   0  60   0 DOTTED LINE 
+STROKE   0   0  28
+STROKE   1   1  28
+STROKE   0   4  28
+STROKE   1   5  28
+STROKE   0   8  28
+STROKE   1   9  28
+STROKE   0  12  28
+STROKE   1  13  28
+STROKE   0  16  28
+STROKE   1  17  28
+STROKE   0  20  28
+STROKE   1  21  28
+STROKE   0  24  28
+STROKE   1  25  28
+STROKE   0  28  28
+STROKE   1  29  28
+STROKE   0  32  28
+STROKE   1  33  28
+STROKE   0  36  28
+STROKE   1  37  28
+END      0  50   0
+****************************************************************
+SYMBOL   0  64   0 BLANK OR SPACE  
+END      0  50   0
+****************************************************************
+SYMBOL   0  65   0 OIL WELL
+STROKE   0   8  27
+STROKE   1  28  27
+STROKE   1  12  35
+STROKE   1  24  19
+STROKE   1   8  27
+STROKE   1  20  37
+STROKE   1  28  25
+STROKE   1  12  19
+STROKE   1  20  37
+STROKE   1  20  17
+STROKE   1   8  25
+STROKE   1  28  25
+STROKE   1  25  33
+STROKE   1  22  35
+STROKE   1  15  35
+STROKE   1  10  32
+STROKE   1  10  29
+STROKE   1  17  28
+STROKE   0   0   0
+BRANCH   0  68   0
+****************************************************************
+SYMBOL   0  66   0 DRY HOLE
+STROKE   0  18  37
+STROKE   1  18  45
+STROKE   0   8  27
+STROKE   1   0  27
+STROKE   0  18  17
+STROKE   1  18   9
+STROKE   0  28  27
+STROKE   1  36  27
+STROKE   0   0   0
+BRANCH   0  68   0
+****************************************************************
+SYMBOL   0  67   0 GAS WELL
+STROKE   0  25  20
+STROKE   1  31  14
+STROKE   0  11  20
+STROKE   1   5  14
+STROKE   0  11  34
+STROKE   1   5  40
+STROKE   0  25  34
+STROKE   1  31  40
+STROKE   0   0   0
+BRANCH   0  66   0
+****************************************************************
+SYMBOL   0  68   0 CIRCLE  
+STROKE   0  18  37
+STROKE   1  16  37
+STROKE   1  14  36
+STROKE   1  12  35
+STROKE   1  10  33
+STROKE   1  10  33
+STROKE   1   9  31
+STROKE   1   8  29
+STROKE   1   8  27
+STROKE   0   8  27
+STROKE   1   8  25
+STROKE   1   9  23
+STROKE   1  10  21
+STROKE   1  12  19
+STROKE   1  14  18
+STROKE   1  16  17
+STROKE   1  18  17
+STROKE   1  20  17
+STROKE   1  22  18
+STROKE   1  24  19
+STROKE   1  26  21
+STROKE   1  27  23
+STROKE   1  28  25
+STROKE   1  28  27
+STROKE   1  28  29
+STROKE   1  27  31
+STROKE   1  26  33
+STROKE   1  24  35
+STROKE   1  22  36
+STROKE   1  20  37
+STROKE   1  18  37
+END      0  50   0
+****************************************************************
+SYMBOL   0  74   0 CENT '½'
+STROKE   0  24  36
+STROKE   1  22  39
+STROKE   1  19  42
+STROKE   1  16  44
+STROKE   1  10  44
+STROKE   1   7  42
+STROKE   1   3  39
+STROKE   1   2  36
+STROKE   1   0  31
+STROKE   1   0  23
+STROKE   1   2  19
+STROKE   1   3  16
+STROKE   1   7  12
+STROKE   1  10  11
+STROKE   1  16  11
+STROKE   1  19  12
+STROKE   1  22  16
+STROKE   1  24  19
+STROKE   0  15  49
+STROKE   1  10   5
+END      0  50   0
+****************************************************************
+SYMBOL   0  75   0 PERIOD '.'  
+STROKE   0   1   5
+STROKE   1   2   6
+STROKE   1   1   7
+STROKE   1   0   6
+STROKE   1   1   5
+END      0  50   0
+****************************************************************
+SYMBOL   0  76   0 LESS THAN '<'   
+STROKE   0  20  34
+STROKE   1   0  25
+STROKE   1  20  16
+END      0  50   0
+****************************************************************
+SYMBOL   0  77   0 LEFT PAREN. '(' 
+STROKE   0  16  50
+STROKE   1   9  47
+STROKE   1   3  40
+STROKE   1   0  32
+STROKE   1   0  23
+STROKE   1   3  15
+STROKE   1   9   8
+STROKE   1  16   5
+END      0  50   0
+****************************************************************
+SYMBOL   0  78   0 PLUS SIGN '+'   
+STROKE   0   0  21
+STROKE   1  21  21
+STROKE   0  11  11
+STROKE   1  11  31
+END      0  50   0
+****************************************************************
+SYMBOL   0  79   0 VERTICAL BAR
+STROKE   0  25   0
+STROKE   1  25  50
+END      0  50   0
+****************************************************************
+SYMBOL   0  80   0
+STROKE   0  33  30
+STROKE   1  31  30
+STROKE   1  28  29
+STROKE   1  26  25
+STROKE   1  24  17
+STROKE   1  23  15
+STROKE   1  20  12
+STROKE   1  18  11
+STROKE   1  12  11
+STROKE   1   9  12
+STROKE   1   7  16
+STROKE   1   7  18
+STROKE   1   9  22
+STROKE   1  11  23
+STROKE   1  19  28
+STROKE   1  20  30
+STROKE   1  21  32
+STROKE   1  21  36
+STROKE   1  20  38
+STROKE   1  18  39
+STROKE   1  15  39
+STROKE   1  13  38
+STROKE   1  12  36
+STROKE   1  12  32
+STROKE   1  13  29
+STROKE   1  17  24
+STROKE   1  24  16
+STROKE   1  27  11
+STROKE   1  31  10
+STROKE   1  33  10
+STROKE   0  33  30
+STROKE   1  33  29
+STROKE   1  31  29
+STROKE   1  27  26
+STROKE   0  29  29
+STROKE   1  27  25
+STROKE   1  25  17
+STROKE   1  24  14
+STROKE   1  20  11
+STROKE   1  18  10
+STROKE   1  12  10
+STROKE   1   9  11
+STROKE   1   8  12
+STROKE   1   6  16
+STROKE   1   6  18
+STROKE   1   8  23
+STROKE   1  11  25
+STROKE   1  18  29
+STROKE   1  19  30
+STROKE   1  20  32
+STROKE   1  20  36
+STROKE   1  19  38
+STROKE   0  20  37
+STROKE   1  18  38
+STROKE   1  16  38
+STROKE   1  13  37
+STROKE   0  14  38
+STROKE   1  13  36
+STROKE   1  13  32
+STROKE   1  14  29
+STROKE   1  18  24
+STROKE   1  25  16
+STROKE   1  27  12
+STROKE   1  31  11
+STROKE   1  33  11
+STROKE   1  33  10
+END      0  50   0
+****************************************************************
+SYMBOL   0  81   0 log symb 1  
+STROKE   0  23  31
+STROKE   1  25  34
+STROKE   1  25   4
+STROKE   0  21   4
+STROKE   1  29   4
+STROKE   0   0   0
+BRANCH   0   2   0
+****************************************************************
+SYMBOL   0  82   0 log symb 2  
+STROKE   0  17  36
+STROKE   1  19  39
+STROKE   1  22  40
+STROKE   1  25  40
+STROKE   1  28  38
+STROKE   1  29  35
+STROKE   1  29  32
+STROKE   1  28  30
+STROKE   1  17  10
+STROKE   1  32  10
+STROKE   0   0   0
+BRANCH   0   1   0
+****************************************************************
+SYMBOL   0  83   0 log symb 3  
+STROKE   0  15  38
+STROKE   1  17  40
+STROKE   1  29  40
+STROKE   1  31  38
+STROKE   1  31  32
+STROKE   1  29  30
+STROKE   1  24  30
+STROKE   0  29  30
+STROKE   1  33  27
+STROKE   1  35  22
+STROKE   1  35  14
+STROKE   1  33   9
+STROKE   1  30   6
+STROKE   1  19   6
+STROKE   1  14  10
+STROKE   0   0   0
+BRANCH   0   4   0
+****************************************************************
+SYMBOL   0  84   0 log symb 4  
+STROKE   0  35  19
+STROKE   1  13  19
+STROKE   1  29  43
+STROKE   1  29   8
+STROKE   0   0   0
+BRANCH   0   9   0
+****************************************************************
+SYMBOL   0  90   0 EXCLAMATION '!' 
+STROKE   0   0  43
+STROKE   1   1  29
+STROKE   1   1  43
+STROKE   0   1  29
+STROKE   1   2  43
+STROKE   1   0  43
+STROKE   0   0  23
+STROKE   1   2  23
+STROKE   1   2  21
+STROKE   1   0  21
+STROKE   1   0  23
+STROKE   1   2  21
+END      0  50   0
+****************************************************************
+SYMBOL   0  91   0 DOLLAR '$'  
+STROKE   0  28  39
+STROKE   1  24  43
+STROKE   1  18  45
+STROKE   1  10  45
+STROKE   1   4  43
+STROKE   1   0  39
+STROKE   1   0  34
+STROKE   1   2  32
+STROKE   1   6  30
+STROKE   1  22  26
+STROKE   1  26  24
+STROKE   1  28  22
+STROKE   1  28  17
+STROKE   1  24  13
+STROKE   1  18  11
+STROKE   1  10  11
+STROKE   1   4  13
+STROKE   1   0  17
+STROKE   0  14  49
+STROKE   1  14   5
+END      0  50   0
+****************************************************************
+SYMBOL   0  92   0 ASTERISK '*'
+STROKE   0  14  14
+STROKE   1  14  40
+STROKE   0   1  38
+STROKE   1  27  16
+STROKE   0  27  38
+STROKE   1   1  16
+STROKE   0   0  27
+STROKE   1  28  27
+END      0  50   0
+****************************************************************
+SYMBOL   0  93   0 RIGHT PAREN. ')'
+STROKE   0   0  50
+STROKE   1   7  47
+STROKE   1  13  40
+STROKE   1  16  32
+STROKE   1  16  23
+STROKE   1  13  15
+STROKE   1   7   8
+STROKE   1   0   5
+END      0  50   0
+****************************************************************
+SYMBOL   0  94   0 SEMI-COLON ';'  
+STROKE   0   2   5
+STROKE   1   4  12
+STROKE   1   2  14
+STROKE   1   0  12
+STROKE   1   2  10
+STROKE   1   2   5
+STROKE   0   0  40
+STROKE   1   0  34
+STROKE   1   4  34
+STROKE   1   4  40
+STROKE   1   0  40
+STROKE   0   2  40
+STROKE   1   2  34
+STROKE   0   1  13
+STROKE   1   1  11
+STROKE   0   2  14
+STROKE   1   2  10
+STROKE   1   3  13
+STROKE   1   3   8
+END      0  50   0
+****************************************************************
+SYMBOL   0  95   0 NOT '^' 
+STROKE   0   0  30
+STROKE   1  24  30
+STROKE   1  24  23
+END      0  50   0
+****************************************************************
+SYMBOL   0  96   0 HYPHEN '-'  
+STROKE   0   0  21
+STROKE   1  21  21
+END      0  50   0
+****************************************************************
+SYMBOL   0  97   0 SLASH '/'   
+STROKE   0   0   5
+STROKE   1  36  50
+END      0  50   0
+****************************************************************
+SYMBOL   0  98   0 ARC 
+STROKE   0   0  10
+STROKE   1   2  17
+STROKE   1   5  22
+STROKE   0   5  22
+STROKE   1  11  26
+STROKE   1  18  28
+STROKE   1  24  28
+STROKE   1  31  26
+STROKE   1  36  21
+STROKE   1  39  16
+STROKE   1  41   9
+END      0  50   0
+****************************************************************
+SYMBOL   0  99   0 LINE
+STROKE   0  44  25
+STROKE   1   0  25
+END      0  50   0
+****************************************************************
+SYMBOL   0 100   0 ARROW   
+STROKE   0  11  24
+STROKE   1  11  26
+STROKE   1  33  26
+STROKE   1  30  29
+STROKE   1  47  25
+STROKE   1  30  21
+STROKE   1  33  24
+STROKE   1  11  24
+STROKE   0  11  25
+STROKE   1  47  25
+STROKE   0  33  26
+STROKE   1  43  26
+STROKE   0  32  27
+STROKE   1  39  27
+STROKE   0  31  28
+STROKE   1  34  28
+STROKE   0  33  24
+STROKE   1  43  24
+STROKE   0  32  23
+STROKE   1  38  23
+STROKE   0  31  22
+STROKE   1  34  22
+END      0  50   0
+****************************************************************
+SYMBOL   0 107   0 COMMA ','   
+STROKE   0   1   3
+STROKE   1   2   6
+STROKE   1   1   7
+STROKE   1   0   6
+STROKE   1   1   5
+STROKE   1   1   3
+END      0  50   0
+****************************************************************
+SYMBOL   0 108   0 PERCENT '%' 
+STROKE   0  24  17
+STROKE   1  20  17
+STROKE   1  16  13
+STROKE   1  16   9
+STROKE   1  20   5
+STROKE   1  24   5
+STROKE   1  28   9
+STROKE   1  28  13
+STROKE   1  24  17
+STROKE   0   8  49
+STROKE   1   4  49
+STROKE   1   0  45
+STROKE   1   0  41
+STROKE   1   4  37
+STROKE   1   8  37
+STROKE   1  12  41
+STROKE   1  12  45
+STROKE   1   8  49
+STROKE   0   0   5
+STROKE   1  28  49
+END      0  50   0
+****************************************************************
+SYMBOL   0 109   0 UNDERSCORE '_'  
+STROKE   0   0   2
+STROKE   1  36   2
+END      0  50   0
+****************************************************************
+SYMBOL   0 110   0 GREATER THAN '>'
+STROKE   0   0  34
+STROKE   1  20  25
+STROKE   1   0  16
+END      0  50   0
+****************************************************************
+SYMBOL   0 111   0 QUESTION MARK '?'   
+STROKE   0   0  34
+STROKE   1   0  38
+STROKE   1   2  42
+STROKE   1   4  44
+STROKE   1   8  46
+STROKE   1  12  46
+STROKE   1  16  44
+STROKE   1  20  40
+STROKE   1  22  36
+STROKE   1  22  32
+STROKE   1  20  28
+STROKE   1  12  20
+STROKE   1  10  14
+STROKE   1  10  10
+STROKE   0  10   6
+STROKE   1  12   4
+STROKE   1  10   2
+STROKE   1   8   4
+STROKE   1  10   6
+END      0  50   0
+****************************************************************
+SYMBOL   0 122   0 COLON ':'   
+STROKE   0  17  41
+STROKE   1  19  41
+STROKE   0  17  40
+STROKE   1  19  40
+STROKE   0  17  39
+STROKE   1  19  39
+STROKE   0  17  21
+STROKE   1  19  21
+STROKE   0  17  20
+STROKE   1  19  20
+STROKE   0  17  19
+STROKE   1  19  19
+END      0  50   0
+****************************************************************
+SYMBOL   0 123   0 POUND '#'   
+STROKE   0   8   5
+STROKE   1  12  50
+STROKE   0  26  50
+STROKE   1  22   5
+STROKE   0  35  20
+STROKE   1   0  20
+STROKE   0   1  35
+STROKE   1  36  35
+END      0  50   0
+****************************************************************
+SYMBOL   0 124   0 AT '@'  
+STROKE   0  17  27
+STROKE   1  16  27
+STROKE   1  15  27
+STROKE   1  14  28
+STROKE   1  13  29
+STROKE   1  12  30
+STROKE   1  12  31
+STROKE   1  12  32
+STROKE   1  12  32
+STROKE   1  12  33
+STROKE   1  12  34
+STROKE   1  13  35
+STROKE   1  14  36
+STROKE   1  15  37
+STROKE   1  16  37
+STROKE   1  17  37
+STROKE   1  17  37
+STROKE   1  18  37
+STROKE   1  19  37
+STROKE   1  20  36
+STROKE   1  21  35
+STROKE   1  22  34
+STROKE   1  22  33
+STROKE   1  22  32
+STROKE   1  22  32
+STROKE   1  22  31
+STROKE   1  22  30
+STROKE   1  21  29
+STROKE   1  20  28
+STROKE   1  19  27
+STROKE   1  18  27
+STROKE   1  17  27
+STROKE   1  17  27
+STROKE   0  19  37
+STROKE   1  15  41
+STROKE   1   6  41
+STROKE   1   0  34
+STROKE   1   0  22
+STROKE   1   9  15
+STROKE   1  19  15
+STROKE   1  27  24
+END      0  50   0
+****************************************************************
+SYMBOL   0 125   0 QUOTE '''   
+STROKE   0   2  50
+STROKE   1   0  40
+STROKE   1   3  50
+END      0  50   0
+****************************************************************
+SYMBOL   0 126   0 EQUAL SIGN '='  
+STROKE   0   9  16
+STROKE   1  29  16
+STROKE   0  29  26
+STROKE   1   9  26
+END      0  50   0
+****************************************************************
+SYMBOL   0 127   0 DOUBLE QUOTE ' " '  
+STROKE   0   2  50
+STROKE   1   0  40
+STROKE   1   3  50
+STROKE   0   9  50
+STROKE   1   7  40
+STROKE   1  10  50
+END      0  50   0
+****************************************************************
+SYMBOL   0 256   0 TRANSFORMER SYMBOL  
+STROKE   0  25   0
+STROKE   1  25  30
+STROKE   1  12  30
+STROKE   1  25  50
+STROKE   1  38  30
+STROKE   1  25  30
+END      0  50   0
+****************************************************************
+SYMBOL   0 257   0 DISTRIBUTION BREAKER
+STROKE   0  15   0
+STROKE   1  15  50
+STROKE   0   0  25
+STROKE   1  15  25
+STROKE   0  35   0
+STROKE   1  35  50
+STROKE   0  35  25
+STROKE   1  50  25
+END      0  50   0
+****************************************************************
+SYMBOL   0 258   0 TRANSFORMER 
+STROKE   0  -2  28
+STROKE   1   4  38
+STROKE   1   5  39
+STROKE   1   7  40
+STROKE   1   9  39
+STROKE   1  10  38
+STROKE   1  16  28
+STROKE   1  22  38
+STROKE   1  23  39
+STROKE   1  25  40
+STROKE   1  25  50
+STROKE   0  25  40
+STROKE   1  27  39
+STROKE   1  28  38
+STROKE   1  34  28
+STROKE   1  40  38
+STROKE   1  41  39
+STROKE   1  43  40
+STROKE   1  45  39
+STROKE   1  46  38
+STROKE   0  52  28
+STROKE   0  50  25
+STROKE   0  -2  22
+STROKE   1   4  12
+STROKE   1   5  11
+STROKE   1   7  10
+STROKE   1   9  11
+STROKE   1  10  12
+STROKE   1  16  22
+STROKE   1  22  12
+STROKE   1  23  11
+STROKE   1  25  10
+STROKE   1  25   0
+STROKE   0  25  10
+STROKE   1  27  11
+STROKE   1  28  12
+STROKE   1  34  22
+STROKE   1  40  12
+STROKE   1  41  11
+STROKE   1  43  10
+STROKE   1  45  11
+STROKE   1  46  12
+STROKE   1  52  22
+STROKE   0  52  -3
+END      0  50   0
+****************************************************************
+SYMBOL   0 259   0 TRANSFORMER WITH TAP
+STROKE   0  -2  28
+STROKE   1   4  38
+STROKE   1   5  39
+STROKE   1   7  40
+STROKE   1   9  39
+STROKE   1  10  38
+STROKE   1  16  28
+STROKE   1  22  38
+STROKE   1  23  39
+STROKE   1  25  40
+STROKE   1  27  39
+STROKE   1  28  38
+STROKE   1  34  28
+STROKE   1  40  38
+STROKE   1  41  39
+STROKE   1  43  40
+STROKE   1  45  39
+STROKE   1  46  38
+STROKE   1  52  28
+STROKE   0  50  25
+STROKE   0  -2  22
+STROKE   1   4  12
+STROKE   1   5  11
+STROKE   1   7  10
+STROKE   1   9  11
+STROKE   1  10  12
+STROKE   1  16  22
+STROKE   1  22  12
+STROKE   1  23  11
+STROKE   1  25  10
+STROKE   1  27  11
+STROKE   1  28  12
+STROKE   1  34  22
+STROKE   1  40  12
+STROKE   1  41  11
+STROKE   1  43  10
+STROKE   1  42   8
+STROKE   0  43  10
+STROKE   1  44   8
+STROKE   0  43  10
+STROKE   1  43   0
+STROKE   1  25   0
+END      0  50   0
+****************************************************************
+SYMBOL   0 260   0 SUBSTATION SWITCH   
+STROKE   0  25  25
+STROKE   1   5  40
+STROKE   0  30  28
+STROKE   1  41  37
+END      0  50   0
+****************************************************************
+SYMBOL   0 261   0 POTHEAD SYMBOL  
+STROKE   0   0  25
+STROKE   1  15  25
+STROKE   0  15  35
+STROKE   1  15  15
+STROKE   0  35  15
+STROKE   1  35  35
+STROKE   0  35  25
+STROKE   1  50  25
+STROKE   0   0   0
+BRANCH   0 265   0
+****************************************************************
+SYMBOL   0 262   0 SUBSTATION REGULATOR
+STROKE   0  25   0
+STROKE   1  25  50
+STROKE   0  25  25
+STROKE   1  20  20
+STROKE   1  15  25
+STROKE   1  20  22
+STROKE   1  25  25
+STROKE   1  30  20
+STROKE   1  35  25
+STROKE   1  30  22
+STROKE   1  25  25
+STROKE   0   0   0
+BRANCH   0 265   0
+****************************************************************
+SYMBOL   0 263   0 REACTOR 
+STROKE   0   0  25
+STROKE   1   5  25
+STROKE   1   3  28
+STROKE   1   2  31
+STROKE   1   1  36
+STROKE   1   2  40
+STROKE   1   3  42
+STROKE   1   5  44
+STROKE   1   9  46
+STROKE   1  13  46
+STROKE   1  17  44
+STROKE   1  21  40
+STROKE   1  21  36
+STROKE   1  21  34
+STROKE   1  19  30
+STROKE   1  18  29
+STROKE   1  17  30
+STROKE   1  15  34
+STROKE   1  15  38
+STROKE   1  17  42
+STROKE   1  21  46
+STROKE   1  24  47
+STROKE   1  26  47
+STROKE   1  30  45
+STROKE   1  34  41
+STROKE   1  35  38
+STROKE   1  35  34
+STROKE   1  33  30
+STROKE   1  32  29
+STROKE   1  31  30
+STROKE   1  29  34
+STROKE   1  29  38
+STROKE   1  31  42
+STROKE   1  33  44
+STROKE   1  37  46
+STROKE   1  41  46
+STROKE   1  45  44
+STROKE   1  47  42
+STROKE   1  49  38
+STROKE   1  49  34
+STROKE   1  47  30
+STROKE   1  46  28
+STROKE   1  44  25
+STROKE   1  50  25
+END      0  50   0
+****************************************************************
+SYMBOL   0 264   0 POLE
+STROKE   0  25   0
+STROKE   1  25  50
+STROKE   0   0   0
+BRANCH   0 265   0
+****************************************************************
+SYMBOL   0 265   0  CIRCLE 
+STROKE   0  23   0
+STROKE   1  18   1
+STROKE   1  15   2
+STROKE   1  10   5
+STROKE   1   5  10
+STROKE   1   2  15
+STROKE   1   1  18
+STROKE   1   0  23
+STROKE   1   0  27
+STROKE   1   1  32
+STROKE   1   2  35
+STROKE   1   5  40
+STROKE   1  10  45
+STROKE   1  15  48
+STROKE   1  18  49
+STROKE   1  23  50
+STROKE   1  27  50
+STROKE   1  32  49
+STROKE   1  35  48
+STROKE   1  40  45
+STROKE   1  45  40
+STROKE   1  48  35
+STROKE   1  49  32
+STROKE   1  50  27
+STROKE   1  50  23
+STROKE   1  49  18
+STROKE   1  48  15
+STROKE   1  45  10
+STROKE   1  40   5
+STROKE   1  35   2
+STROKE   1  32   1
+STROKE   1  27   0
+STROKE   1  23   0
+END      0  50   0
