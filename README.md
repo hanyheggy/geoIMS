@@ -6,7 +6,7 @@ It runs under IBM AIX, RedHat Linux and almost all Linux Platforms.
 It can be migrated to any Unix/Linux System. 
 
 geoIMS is designed so that we keep attributes data inside a database and load the graphics data only to RAM, then access attribute data on request.
-This makes it faster in data loading and can handle huge data (up to ram size).
+This makes it faster in data loading and can handle huge map data (up to ram size).
 
 
 
