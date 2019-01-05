@@ -1,6 +1,5 @@
 # geoIMS
-  geoIMS is a state of the art low coast Internet Maps Server written from scratch using the most popular 
-open source tools C, Motif, X-Windows, unixODBC, ImageMagick, apache, PHP.
+  geoIMS is a state of the art simple Internet Maps Server written from scratch using open source tools C, Motif, X-Windows, unixODBC, ImageMagick, apache, PHP.
 It support ODBC which make it easy to use any RDBMS (DB2, MySQL, ORACLE, …)
 It is written under IBM AIX, migrated and tuned to be used under RedHat Linux.
 It runs under IBM AIX, RedHat Linux and almost all Linux Platforms.
